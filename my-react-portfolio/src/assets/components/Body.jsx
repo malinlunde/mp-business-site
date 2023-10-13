@@ -8,7 +8,7 @@ import { Contact } from './contact/Contact';
 import { Article } from './article/Article';
 
 
-export const body = () => {
+export const Body = () => {
   return (
     <div className="big-wrapper">
         <Header />
