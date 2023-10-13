@@ -2,7 +2,7 @@ import React from 'react';
 import './body.css';
 import { Header } from './header/Header';
 import { Tech } from './tech/Tech';
-import { Projects } from './projects/Project';
+import { Projects } from './projects/Projects';
 import { Skills } from './skills/Skills';
 import { Contact } from './contact/Contact';
 import { Article } from './article/Article';
