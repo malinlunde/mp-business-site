@@ -2,6 +2,7 @@ import React from 'react'
 import linkedin from '../icons/linkedin.svg';
 import github from '../icons/github.svg';
 import jagImage from '../images/jag.jpg';
+import './contact.css';
 
   
 
@@ -15,6 +16,9 @@ export const Contact = () => {
       <p className='contact-name'>Malin Lundhe</p>
       <p className='contact-number'>+46(0)734 33 97 18</p>
       <p className='contact-mail'>malinlundhe@hotmail.com</p>
+      <div className='scroll-text'>
+        Malin Lundhe · Fullstack Developer · Malin Lundhe · Fullstack Developer · Malin Lundhe · Fullstack Developer ·
+      </div>
      
     </section>
   )

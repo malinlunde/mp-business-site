@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './project.css';
+import liveDemoButton from "../icons/liveDemoButton.png";
+import viewCode from "../icons/viewCode.png";
+import happy from "../images/happy.png";
+import guess from "../images/guess.png";
+import travel from "../images/travel.png";
+import weather from "../images/weather.png";
+import survey from "../images/survey.png";
+import pizza from "../images/pizza.png";
+import music from "../images/music.png";
 
 
 export const ProjectCardList = () => {
@@ -61,30 +70,42 @@ export const ProjectCardList = () => {
     'project-pizza': 'https://malins-pizza-project.netlify.app',
     'project-business-site': 'https://team-work-business-site.netlify.app',
   };
+
+  const githubURLs = {
+    'project-happy-thoughts-vite': 'https://github.com/malinlunde/project-happy-thoughts-vite',
+    'project-survey-vite': 'https://github.com/malinlunde/project-survey-vite',
+    'project-music-releases-vite': 'https://github.com/malinlunde/project-music-releases-vite',
+    'project-weather-app': 'https://github.com/malinlunde/project-weather-app',
+    'project-guess-who': 'https://github.com/malinlunde/project-guess-who',
+    'project-pizza': 'https://github.com/malinlunde/project-pizza',
+    'project-business-site': 'https://github.com/malinlunde/project-business-site',
+  }
   
-  useEffect(() => {
-    const githubUsername = 'malinlunde';
-    fetch(`https://api.github.com/users/${githubUsername}/repos`)
-      .then((response) => response.json())
-      .then((data) => {
-        
-        setRepos(data);
-      })
-      .catch((error) => {
-        console.error('Error fetching GitHub repositories:', error);
-      });
-  }, []);
+  const imageForProject = {
+    'project-happy-thoughts-vite': happy,
+    'project-survey-vite': survey,
+    'project-music-releases-vite': music,
+    'project-weather-app': weather,
+    'project-guess-who': guess,
+    'project-pizza': pizza,
+    'project-business-site': travel,
+  
+  };
   
   return (
     <section className='my-projects'>
       <div className='list'>
         {projectsList.map((project, index) => (
           <div key={index} className='project-card'>
+            <img src={imageForProject[project]} alt='' />
             <h2 className='h2projectcard'>{projectInfo[project].name}</h2>
             <p className='pprojectcard'>{projectInfo[project].description}</p>
             <p className='ptags'>{projectInfo[project].techniques}</p>
             <a href={netlifyURLs[project]} target='_blank' rel='noopener noreferrer'>
-              <button>View Project</button>
+              <img src={liveDemoButton} alt='Live Demo' />
+           </a>
+            <a href={githubURLs[project]} target='_blank' rel='noopener noreferrer'>
+              <img src={viewCode} alt='View Code' />
             </a>
           </div>
         ))}
