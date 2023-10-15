@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './project.css';
-import { projectCardList } from './projectCardList';
+import ProjectCardList from './ProjectCardList';
 
 export const Projects = () => {
   
@@ -8,9 +8,10 @@ export const Projects = () => {
     <section className='projects-container'>
       <section className='projects'>
         <h1 className='h1projects'>Featured Projects</h1>
-        <projectCardList />
+        <ProjectCardList />
       </section>
     </section>
    
   )
 }
+export default Projects;

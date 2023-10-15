@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './project.css';
 
 
-export const projectCardList = () => {
+export const ProjectCardList = () => {
+  const [repos, setRepos] = useState([]);
   const projectsList = [
     'project-happy-thoughts-vite',
     'project-survey-vite',
@@ -32,12 +33,12 @@ export const projectCardList = () => {
     'project-weather-app': {
       name: 'Project-Weather-App',
       description: 'An app with the current weather data',
-      techniques: 'React, OpenWeather API, CSS, pair-programming',
+      techniques: 'HTML5, CSS3, React, OpenWeather API, pair-programming, Node',
     },
     'project-guess-who': {
       name: 'Project-Guess-Who',
       description: 'A game where you filter characters to find the hidden person',
-      techniques: 'HTML5, CSS, Javascript',
+      techniques: 'HTML5, CSS3, React, Javascript, Node',
     },
     'project-pizza': {
       name: 'Project-Pizza',
@@ -61,11 +62,35 @@ export const projectCardList = () => {
     'project-business-site': 'https://team-work-business-site.netlify.app',
   };
   
-  
-  
-  
+  useEffect(() => {
+    const githubUsername = 'malinlunde';
+    fetch(`https://api.github.com/users/${githubUsername}/repos`)
+      .then((response) => response.json())
+      .then((data) => {
+        
+        setRepos(data);
+      })
+      .catch((error) => {
+        console.error('Error fetching GitHub repositories:', error);
+      });
+  }, []);
   
   return (
-    <div>projectCardList</div>
-  )
-}
+    <section className='my-projects'>
+      <div className='list'>
+        {projectsList.map((project, index) => (
+          <div key={index} className='project-card'>
+            <h2 className='h2projectcard'>{projectInfo[project].name}</h2>
+            <p className='pprojectcard'>{projectInfo[project].description}</p>
+            <p className='ptags'>{projectInfo[project].techniques}</p>
+            <a href={netlifyURLs[project]} target='_blank' rel='noopener noreferrer'>
+              <button>View Project</button>
+            </a>
+          </div>
+        ))}
+      </div>
+     
+    </section>
+  );
+};
+export default ProjectCardList;
