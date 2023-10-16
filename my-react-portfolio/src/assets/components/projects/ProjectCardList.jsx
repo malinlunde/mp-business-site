@@ -97,14 +97,14 @@ export const ProjectCardList = () => {
       <div className='list'>
         {projectsList.map((project, index) => (
           <div key={index} className='project-card'>
-            <img src={imageForProject[project]} alt='' />
+            <img src={imageForProject[project]} className='projectimage' alt='' />
             <h2 className='h2projectcard'>{projectInfo[project].name}</h2>
             <p className='pprojectcard'>{projectInfo[project].description}</p>
             <p className='ptags'>{projectInfo[project].techniques}</p>
-            <a href={netlifyURLs[project]} target='_blank' rel='noopener noreferrer'>
+            <a href={netlifyURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
               <img src={liveDemoButton} alt='Live Demo' />
            </a>
-            <a href={githubURLs[project]} target='_blank' rel='noopener noreferrer'>
+            <a href={githubURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
               <img src={viewCode} alt='View Code' />
             </a>
           </div>

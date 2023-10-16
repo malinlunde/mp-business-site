@@ -1,0 +1,36 @@
+.skills {
+    display: inline-flex;
+    padding: 128px 99px 157px 103px;
+    flex-direction: column;
+    align-items: center;
+    background: #8FBC8F; 
+}
+
+.h1skills {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+
+.h3skills {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+
+.skills-item {
+    color: #FFF;  
+    text-align: center;
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+}
