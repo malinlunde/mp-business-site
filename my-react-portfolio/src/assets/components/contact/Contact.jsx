@@ -16,9 +16,11 @@ export const Contact = () => {
       <p className='contact-name'>Malin Lundhe</p>
       <p className='contact-number'>+46(0)734 33 97 18</p>
       <p className='contact-mail'>malinlundhe@hotmail.com</p>
-      <div className='scroll-text'>
-        Malin Lundhe · Fullstack Developer · Malin Lundhe · Fullstack Developer · Malin Lundhe · Fullstack Developer ·
-      </div>
+      <div className='scroll-text-wrapper'>
+        <div className='scroll-text'>
+        Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer ·
+        </div>
+        </div>
      
     </section>
   )

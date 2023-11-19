@@ -7,23 +7,30 @@ import guess from "../images/guess.png";
 import travel from "../images/travel.png";
 import weather from "../images/weather.png";
 import survey from "../images/survey.png";
-import pizza from "../images/pizza.png";
 import music from "../images/music.png";
+import movies from "../images/movies.png";
+import quiz from "../images/quiz.png";
 
 
 export const ProjectCardList = () => {
   const [repos, setRepos] = useState([]);
   const projectsList = [
+    'project-state-management-quiz-vite',
     'project-happy-thoughts-vite',
     'project-survey-vite',
     'project-music-releases-vite',
+    'project-movies-vite',
     'project-weather-app',
     'project-guess-who',
-    'project-pizza',
     'project-business-site',
   ];
 
   const projectInfo = {
+    'project-state-management-quiz-vite': {
+      name: 'Project-State-Management-Quiz-Vite',
+      description: 'A Foodie Quiz',
+      techniques: 'Pair-programming, ',
+    },
     'project-happy-thoughts-vite': {
       name: 'Project-Happy-Thoughts-Vite',
       description: 'Like a positive Twitter',
@@ -35,9 +42,14 @@ export const ProjectCardList = () => {
       techniques: 'Pair-programming, React',
     },
     'project-music-releases-vite': {
-      name: 'Projects-Music-Releases-Vite',
+      name: 'Project-Music-Releases-Vite',
       description: 'A site showing new albums and singles releases',
       techniques: 'React, Spotify API, CSS',
+    },
+    'project-movies-vite': {
+      name: 'Project-Movies-Vite',
+      description: 'A site using themoviedb.orgs API to showcase movies and thei details',
+      techniques: 'React, Themoviedb.org API, routes, CSS',
     },
     'project-weather-app': {
       name: 'Project-Weather-App',
@@ -49,11 +61,6 @@ export const ProjectCardList = () => {
       description: 'A game where you filter characters to find the hidden person',
       techniques: 'HTML5, CSS3, React, Javascript, Node',
     },
-    'project-pizza': {
-      name: 'Project-Pizza',
-      description: 'Order a meal from this Javascript Pizzeria',
-      techniques: 'HTML5, CSS, Javascript',
-    },
     'project-business-site': {
       name: 'Project-Business-Site',
       description: 'A simple web page where you can have travel guides',
@@ -62,32 +69,35 @@ export const ProjectCardList = () => {
   };
   
   const netlifyURLs = {
+    'project-state-management-quiz-vite': 'https://teamwork-quiz-vite-zustand.netlify.app',
     'project-happy-thoughts-vite': 'https://happy-thoughts-malin-lunde.netlify.app',
     'project-survey-vite': 'https://project-survey-vite.netlify.app',
     'project-music-releases-vite': 'https://malin-lunde-project-music-releases.netlify.app',
+    'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
     'project-weather-app': 'https://malin-weather-app-teamwork.netlify.app',
     'project-guess-who': 'https://malin-guess-who.netlify.app',
-    'project-pizza': 'https://malins-pizza-project.netlify.app',
     'project-business-site': 'https://team-work-business-site.netlify.app',
   };
 
   const githubURLs = {
+    'project-state-management-quiz-vite': 'https://github.com/malinlunde/project-state-management-quiz-vite',
     'project-happy-thoughts-vite': 'https://github.com/malinlunde/project-happy-thoughts-vite',
     'project-survey-vite': 'https://github.com/malinlunde/project-survey-vite',
     'project-music-releases-vite': 'https://github.com/malinlunde/project-music-releases-vite',
+    'project-movies-vite': 'https://github.com/malinlunde/project-movies-vite',
     'project-weather-app': 'https://github.com/malinlunde/project-weather-app',
     'project-guess-who': 'https://github.com/malinlunde/project-guess-who',
-    'project-pizza': 'https://github.com/malinlunde/project-pizza',
     'project-business-site': 'https://github.com/malinlunde/project-business-site',
   }
   
   const imageForProject = {
+    'project-state-management-quiz-vite': quiz, 
     'project-happy-thoughts-vite': happy,
     'project-survey-vite': survey,
     'project-music-releases-vite': music,
+    'project-movies-vite': movies, 
     'project-weather-app': weather,
     'project-guess-who': guess,
-    'project-pizza': pizza,
     'project-business-site': travel,
   
   };
@@ -100,13 +110,19 @@ export const ProjectCardList = () => {
             <img src={imageForProject[project]} className='projectimage' alt='' />
             <h2 className='h2projectcard'>{projectInfo[project].name}</h2>
             <p className='pprojectcard'>{projectInfo[project].description}</p>
-            <p className='ptags'>{projectInfo[project].techniques}</p>
-            <a href={netlifyURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
-              <img src={liveDemoButton} alt='Live Demo' />
-           </a>
-            <a href={githubURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
-              <img src={viewCode} alt='View Code' />
-            </a>
+            <div className='ptags-container'>
+              {projectInfo[project].techniques.split(',').map((techniques, i) => (
+                <span key={i} className='ptags'>{techniques.trim()}</span>
+              ))}
+            </div>
+            <div className='viewbutton-container'>
+              <a href={netlifyURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
+                <img src={liveDemoButton} alt='Live Demo' />
+              </a>
+              <a href={githubURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
+                <img src={viewCode} alt='View Code' />
+              </a>
+            </div>
           </div>
         ))}
       </div>

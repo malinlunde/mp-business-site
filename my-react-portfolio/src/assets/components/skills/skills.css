@@ -18,6 +18,8 @@
 
 .h3skills {
     color: #FFF;
+    background-color: #FF4575;
+    padding: 8px;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -33,4 +35,27 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;   
+    list-style-type: none; 
+}
+
+.h3tools {
+    color: #FFF;
+    background-color: #2483e0;
+    padding: 8px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+
+.h3more {
+    color: #FFF;
+    background-color: #6db486;
+    padding: 8px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
