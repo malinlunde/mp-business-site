@@ -1,9 +1,19 @@
 .skills {
-    display: inline-flex;
-    padding: 128px 99px 157px 103px;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 128px 16px;
     background: #8FBC8F; 
+}
+
+.skills-columns {
+   display: grid;
+   gap: 64px; 
+}
+
+.skills-column {
+    text-align: center;
 }
 
 .h1skills {
@@ -17,6 +27,8 @@
 }
 
 .h3skills {
+    display: inline-flex;
+    align-items: flex-start;
     color: #FFF;
     background-color: #FF4575;
     padding: 8px;
@@ -25,6 +37,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;  
+    text-align: center;
 }
 
 .skills-item {
@@ -39,6 +52,8 @@
 }
 
 .h3tools {
+    display: inline-flex;
+    align-items: flex-start;
     color: #FFF;
     background-color: #2483e0;
     padding: 8px;
@@ -47,9 +62,12 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;  
+    text-align: center;
 }
 
 .h3more {
+    display: inline-flex;
+    align-items: flex-start;
     color: #FFF;
     background-color: #6db486;
     padding: 8px;
@@ -58,4 +76,5 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-align: center;
 }

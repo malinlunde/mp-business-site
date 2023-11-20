@@ -1,12 +1,13 @@
 .tech {
+    background: #8FBC8F;
+    padding: 32px 16px;
+}
+
+.techwrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 64px;
-    background: #8FBC8F;
-    width: 375px;
-    padding: 128px 16px;
 }
 
 .h1tech {
@@ -20,11 +21,29 @@ line-height: normal;
 }
 
 .ptech {
-    width: 343px;
+    width: 100%;
     color: #FFF;
     font-family: Hind;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;   
+}
+
+@media screen and (min-width: 600px) {
+    .tech {
+        padding: 64px 32px;
+    }
+
+}
+
+@media screen and (min-width 1024px) {
+    .tech {
+        padding: 128px 64px;
+    }
+
+    .ptech {
+        width: auto;
+        margin-left: 32px;
+    }
 }

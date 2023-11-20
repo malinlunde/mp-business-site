@@ -6,8 +6,10 @@ export const Tech = () => {
   
   return (
     <section className='tech'>
-      <h1 className='h1tech'>Tech</h1>
-      <p className='ptech'>{techText}</p>
+      <div className='techwrapper'>
+        <h1 className='h1tech'>Tech</h1>
+        <p className='ptech'>{techText}</p>
+      </div>
     </section>
     
   );
