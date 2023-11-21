@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import jagImage from '../images/jag.jpg';
+import jagImage from '../images/jag1.jpg';
 import Arrow from "../icons/Arrow.png"
 
 
@@ -17,7 +17,7 @@ export const Header = () => {
           <h3 className='h3intro'>Hi, I'm Malin Lunde</h3>
           <h1 className='h1intro'>Frontend Developer</h1>
         </div>
-        <p className='pintro'>Malin, a trained Frontend Developer, seamlessly combines her administrative background with coding expertise. Experienced in system implementation and with a knack for backend coding, she excels in well-structured, collaborative environments. Service-minded and quick to adapt, Malin brings a unique blend of technical skill and organizational finesse to every project.</p>
+        <p className='pintro'>I'm diving headfirst into the world of tech. While I'm relatively new to this exciting tech scene, my curiosity drives me to explore backend development, and my front-end skills come from hands-on learning. In collaborative environments, I bring a mix of technical curiosity and organizational finesse. Quick to adapt and service-minded, I'm navigating the tech world with a happy coding vibe. Let's make some tech magic together!</p>
         </div>
         {/* Desktop View */}
 
@@ -27,7 +27,7 @@ export const Header = () => {
           <h1 className='h1intro'>Frontend Developer</h1>
         </div>
           <img src={jagImage} alt='' className='profile-image'/>
-          <p className='pintro'>Malin, a trained Frontend Developer, seamlessly combines her administrative background with coding expertise. Experienced in system implementation and with a knack for backend coding, she excels in well-structured, collaborative environments. Service-minded and quick to adapt, Malin brings a unique blend of technical skill and organizational finesse to every project.</p>        
+          <p className='pintro'>I'm diving headfirst into the world of tech. While I'm relatively new to this exciting tech scene, my curiosity drives me to explore backend development, and my front-end skills come from hands-on learning. In collaborative environments, I bring a mix of technical curiosity and organizational finesse. Quick to adapt and service-minded, I'm navigating the tech world with a happy coding vibe. Let's make some tech magic together!</p>        
       </div>
       <div className='arrow'>
         <a href="#Tech">

@@ -9,7 +9,7 @@ import survey from "../images/survey.png";
 import music from "../images/music.png";
 import movies from "../images/movies.png";
 import quiz from "../images/quiz.png";
-import pizza from "../images/pizza.png";
+import pizza from "../images/pizza.jpg";
 
 
 export const ProjectCardList = () => {
@@ -34,7 +34,7 @@ export const ProjectCardList = () => {
     'project-happy-thoughts-vite': {
       name: 'Project-Happy-Thoughts-Vite',
       description: 'This project revolves around honing React state skills by implementing component lifecycles, utilizing the React Hook "useEffect," and working with APIs. The objective is to build a Twitter-like application called "Happy Thoughts," where users can fetch and post (happy) data.',
-      techniques: 'React, API, Postman',
+      techniques: 'React, API, Postman, CSS3',
     },
     'project-survey-vite': {
       name: 'Project-Survey-Vite',
@@ -44,7 +44,7 @@ export const ProjectCardList = () => {
     'project-music-releases-vite': {
       name: 'Project-Music-Releases-Vite',
       description: 'This project emphasizes mastering React and working with APIs to create a page showcasing new albums and single releases. The focus is on efficient data management using React components and props.',
-      techniques: 'React, Spotify API, CSS3',
+      techniques: 'React, useState, Spotify API, CSS3',
     },
     'project-movies-vite': {
       name: 'Project-Movies-Vite',
@@ -107,19 +107,21 @@ export const ProjectCardList = () => {
         {projectsList.map((project, index) => (
           <div key={index} className='project-card'>
             <img src={imageForProject[project]} className='projectimage' alt='' />
-            <h2 className='h2projectcard'>{projectInfo[project].name}</h2>
-            <p className='pprojectcard'>{projectInfo[project].description}</p>
-            <div className='ptags-container'>
-              {projectInfo[project].techniques.split(',').map((techniques, i) => (
-                <span key={i} className='ptags'>{techniques.trim()}</span>
-              ))}
+            <div className='project-text-container'>
+              <h2 className='h2projectcard'>{projectInfo[project].name}</h2>
+              <p className='pprojectcard'>{projectInfo[project].description}</p>
+              <div className='ptags-container'>
+                {projectInfo[project].techniques.split(',').map((techniques, i) => (
+                  <span key={i} className='ptags'>{techniques.trim()}</span>
+                ))}
+              </div>
             </div>
             <div className='viewbutton-container'>
-              <a href={netlifyURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
-                <img src={liveDemoButton} alt='Live Demo' />
+              <a href={netlifyURLs[project]} target='_blank' rel='noopener noreferrer'>
+                <img src={liveDemoButton} alt='Live Demo' className='netlifybutton'/>
               </a>
-              <a href={githubURLs[project]} className='viewbutton' target='_blank' rel='noopener noreferrer'>
-                <img src={viewCode} alt='View Code' />
+              <a href={githubURLs[project]} target='_blank' rel='noopener noreferrer'>
+                <img src={viewCode} alt='View Code' className='githubbutton'/>
               </a>
             </div>
           </div>
