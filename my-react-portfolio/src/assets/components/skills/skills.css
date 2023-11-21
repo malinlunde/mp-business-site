@@ -20,7 +20,7 @@
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
-    font-size: 56px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;  
@@ -38,13 +38,14 @@
     font-weight: 600;
     line-height: normal;  
     text-align: center;
+    margin-left: 25px;
 }
 
 .skills-item {
     color: #FFF;  
     text-align: center;
     font-family: Hind;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;   
@@ -63,6 +64,7 @@
     font-weight: 600;
     line-height: normal;  
     text-align: center;
+    margin-left: 25px;
 }
 
 .h3more {
@@ -77,4 +79,50 @@
     font-weight: 600;
     line-height: normal;
     text-align: center;
+    margin-left: 25px;
+}
+
+@media screen and (min-width: 600px) {
+    .skills-columns {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .h1skills {
+        font-size: 80px;
+    }
+
+    .h3skills, 
+    .h3tools,
+    .h3more {
+       font-size: 36px; 
+       font-weight: 800;
+       text-align: center;
+    }
+
+    .skills-item {
+       font-size: 20px; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-columns {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .h1skills {
+        font-size: 80px;
+    }
+
+    .h3skills, 
+    .h3tools,
+    .h3more {
+       font-size: 36px; 
+       font-weight: 800; 
+       text-align: center;
+    }
+
+    .skills-item {
+       font-size: 24px;
+       font-weight: 500; 
+    }
 }
