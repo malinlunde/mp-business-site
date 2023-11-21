@@ -26,10 +26,8 @@ export const Header = () => {
           <h3 className='h3intro'>Hi, I'm Malin Lunde</h3>
           <h1 className='h1intro'>Frontend Developer</h1>
         </div>
-        <div className='profile-container'>
           <img src={jagImage} alt='' className='profile-image'/>
           <p className='pintro'>Malin, a trained Frontend Developer, seamlessly combines her administrative background with coding expertise. Experienced in system implementation and with a knack for backend coding, she excels in well-structured, collaborative environments. Service-minded and quick to adapt, Malin brings a unique blend of technical skill and organizational finesse to every project.</p>        
-        </div>
       </div>
       <div className='arrow'>
         <a href="#Tech">
