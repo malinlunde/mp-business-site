@@ -4,12 +4,12 @@ import liveDemoButton from "../icons/liveDemoButton.png";
 import viewCode from "../icons/viewCode.png";
 import happy from "../images/happy.png";
 import guess from "../images/guess.png";
-import travel from "../images/travel.png";
 import weather from "../images/weather.png";
 import survey from "../images/survey.png";
 import music from "../images/music.png";
 import movies from "../images/movies.png";
 import quiz from "../images/quiz.png";
+import pizza from "../images/pizza.png";
 
 
 export const ProjectCardList = () => {
@@ -22,49 +22,49 @@ export const ProjectCardList = () => {
     'project-movies-vite',
     'project-weather-app',
     'project-guess-who',
-    'project-business-site',
+    'project-pizza',
   ];
 
   const projectInfo = {
     'project-state-management-quiz-vite': {
       name: 'Project-State-Management-Quiz-Vite',
-      description: 'A Foodie Quiz',
-      techniques: 'Pair-programming, ',
+      description: 'Collaborative multiple-choice quiz game for real foodies, using Zustand for seamless state management and well-styled interface built with teamwork',
+      techniques: 'Zustand, React, Pair-programming, CSS3',
     },
     'project-happy-thoughts-vite': {
       name: 'Project-Happy-Thoughts-Vite',
-      description: 'Like a positive Twitter',
-      techniques: 'React, API, Javascript',
+      description: 'This project revolves around honing React state skills by implementing component lifecycles, utilizing the React Hook "useEffect," and working with APIs. The objective is to build a Twitter-like application called "Happy Thoughts," where users can fetch and post (happy) data.',
+      techniques: 'React, API, Postman',
     },
     'project-survey-vite': {
       name: 'Project-Survey-Vite',
-      description: 'A React project to create a customizable survey form. ',
-      techniques: 'Pair-programming, React',
+      description: 'This project involves creating a multi-step survey app in React, showcasing proficiency in managing React state and controlled forms. The app mimics a Typeform-like structure, utilizing various input methods, and providing a summary of user responses upon submission.',
+      techniques: 'React, Pair-programming, CSS3',
     },
     'project-music-releases-vite': {
       name: 'Project-Music-Releases-Vite',
-      description: 'A site showing new albums and singles releases',
-      techniques: 'React, Spotify API, CSS',
+      description: 'This project emphasizes mastering React and working with APIs to create a page showcasing new albums and single releases. The focus is on efficient data management using React components and props.',
+      techniques: 'React, Spotify API, CSS3',
     },
     'project-movies-vite': {
       name: 'Project-Movies-Vite',
-      description: 'A site using themoviedb.orgs API to showcase movies and thei details',
-      techniques: 'React, Themoviedb.org API, routes, CSS',
+      description: 'A multi-page React application using themoviedb.orgs API to showcase movies and their details',
+      techniques: 'React, Themoviedb.org API, Routes, CSS3',
     },
     'project-weather-app': {
       name: 'Project-Weather-App',
-      description: 'An app with the current weather data',
-      techniques: 'HTML5, CSS3, React, OpenWeather API, pair-programming, Node',
+      description: 'A simple weather dashboard providing todays weather, temperature, and a 5-day forecast. Utilized a weather API to fetch and present accurate data. This project emphasizes pair programming.',
+      techniques: 'HTML5, CSS3, Javascript, OpenWeather API, pair-programming',
     },
     'project-guess-who': {
       name: 'Project-Guess-Who',
-      description: 'A game where you filter characters to find the hidden person',
-      techniques: 'HTML5, CSS3, React, Javascript, Node',
+      description: 'A classic Guess Who game built just in the beginning of the learning with Javascript, HTML and CSS, the project apply concepts like DOM manipulation, function definitions, conditional statements, object and array manipulation and much more. ',
+      techniques: 'HTML5, Javascript, CSS3,',
     },
-    'project-business-site': {
-      name: 'Project-Business-Site',
-      description: 'A simple web page where you can have travel guides',
-      techniques: 'HTML5, CSS, ,'
+    'project-pizza': {
+      name: 'Project-Javascript-Pizzeria',
+      description: 'A captivating chatbot interface that engages users by asking questions, displaying messages, and providing precise responses.',
+      techniques: 'HTML5, Javascript, CSS3,'
     },
   };
   
@@ -76,7 +76,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
     'project-weather-app': 'https://malin-weather-app-teamwork.netlify.app',
     'project-guess-who': 'https://malin-guess-who.netlify.app',
-    'project-business-site': 'https://team-work-business-site.netlify.app',
+    'project-pizza': 'https://malins-pizza-project.netlify.app/',
   };
 
   const githubURLs = {
@@ -87,9 +87,9 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://github.com/malinlunde/project-movies-vite',
     'project-weather-app': 'https://github.com/malinlunde/project-weather-app',
     'project-guess-who': 'https://github.com/malinlunde/project-guess-who',
-    'project-business-site': 'https://github.com/malinlunde/project-business-site',
+    'project-pizza': 'https://github.com/malinlunde/project-pizza',
   }
-  
+
   const imageForProject = {
     'project-state-management-quiz-vite': quiz, 
     'project-happy-thoughts-vite': happy,
@@ -98,8 +98,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': movies, 
     'project-weather-app': weather,
     'project-guess-who': guess,
-    'project-business-site': travel,
-  
+    'project-pizza': pizza,
   };
   
   return (
