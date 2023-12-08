@@ -70,7 +70,7 @@ export const ProjectCardList = () => {
   
   const netlifyURLs = {
     'project-state-management-quiz-vite': 'https://teamwork-quiz-vite-zustand.netlify.app',
-    'project-happy-thoughts-vite': 'https://happy-thoughts-malin-lunde.netlify.app',
+    'project-happy-thoughts-vite': 'https://malin-lunde-happy-thoughts-vite.netlify.app',
     'project-survey-vite': 'https://project-survey-vite.netlify.app',
     'project-music-releases-vite': 'https://malin-lunde-project-music-releases.netlify.app',
     'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
