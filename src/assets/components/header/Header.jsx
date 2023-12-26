@@ -19,6 +19,7 @@ export const Header = () => {
         </div>
         <p className='pintro'>I'm diving headfirst into the world of tech. While I'm relatively new to this exciting tech scene, my curiosity drives me to explore backend development, and my front-end skills come from hands-on learning. In collaborative environments, I bring a mix of technical curiosity and organizational finesse. Quick to adapt and service-minded, I'm navigating the tech world with a happy coding vibe. Let's make some tech magic together!</p>
         </div>
+
         {/* Desktop View */}
 
       <div className='introbox-desktop'>

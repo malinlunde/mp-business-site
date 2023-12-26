@@ -6,7 +6,6 @@
     align-items: center;
     background: #FFF;
     max-width: 90%;
-    font-family: Montserrat;
 }
 
 .introbox {
@@ -90,8 +89,25 @@
 }
 
 @media screen and (min-width: 600px) {
+    .introbox  {
+        display: none; 
+    }
+
+    .introbox-desktop {
+        margin: 0 auto;
+        padding: 128px 64px;
+        display: grid; 
+        grid-template-columns: 1fr 430px;
+        grid-template-rows: auto auto;
+    }
+
+    .headings {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+    
     .intro {
-        padding: 64px 32px;
+        padding: 40px 32px;
     }
 
     .h1intro {
@@ -116,6 +132,7 @@
 
     .pintro {
         text-align: left;
+        font-size: 20px;
     }
 }
 
