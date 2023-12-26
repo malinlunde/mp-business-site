@@ -50,9 +50,8 @@
 .viewbutton-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 5px;
   align-items: flex-start;
-  margin-top: 20px;
 }
  
 .netlifybutton,
@@ -97,7 +96,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  margin-bottom: 3em;
+  margin-bottom: 5px;
 }
 
 .ptags {
