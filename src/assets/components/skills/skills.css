@@ -12,6 +12,7 @@
 .wave {
     width: 100%;
     margin: 0px;
+    background: white;
 }
 .skills-columns {
    display: grid;
