@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: center;
   padding: 64px 16px;
-  font-family: Montserrat;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .h2contact {

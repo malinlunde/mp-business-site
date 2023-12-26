@@ -3,11 +3,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 128px 16px;
+    padding-bottom: 128px;
     background: #8FBC8F; 
-    font-family: Montserrat;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 0px
 }
 
+.wave {
+    width: 100%;
+    margin: 0px;
+}
 .skills-columns {
    display: grid;
    gap: 64px; 
@@ -20,11 +25,11 @@
 .h1skills {
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;  
+    
 }
 
 .h3skills {
@@ -33,7 +38,6 @@
     color: #FFF;
     background-color: #FF4575;
     padding: 8px;
-    font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -45,7 +49,6 @@
 .skills-item {
     color: #FFF;  
     text-align: center;
-    font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +62,6 @@
     color: #FFF;
     background-color: #2483e0;
     padding: 8px;
-    font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -74,7 +76,6 @@
     color: #FFF;
     background-color: #6db486;
     padding: 8px;
-    font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;

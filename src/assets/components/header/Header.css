@@ -6,6 +6,7 @@
     align-items: center;
     background: #FFF;
     max-width: 90%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .introbox {
@@ -36,7 +37,6 @@
 
 .h3intro {
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -47,7 +47,6 @@
 
 .h1intro {
     color: #8FBC8F;
-    font-family: Montserrat;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -58,7 +57,6 @@
 
 .pintro {
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -146,7 +144,7 @@
         margin: 0 auto;
         padding: 128px 64px;
         display: grid; 
-        grid-template-columns: 1fr 430px;
+        grid-template-columns: 1fr 580px;
         grid-template-rows: auto auto;
     }
 
@@ -171,6 +169,7 @@
     .pintro {
         grid-row: 2;
         grid-column: 2;
+        font-size: 18px;
     }
   
 }

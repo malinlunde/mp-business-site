@@ -11,7 +11,6 @@
     align-self: stretch;
     color: #8FBC8F;
     text-align: center;
-    font-family: Montserrat;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -144,5 +143,5 @@
     gap: 30px;
     align-items: center;
     margin-left: 20px;
-}
+  }
 }

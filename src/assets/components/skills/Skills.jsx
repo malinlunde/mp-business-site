@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './skills.css';
+import wave from "../images/wave.png";
 
 export const Skills = () => {
   const [skillsList] = useState([
@@ -35,6 +36,7 @@ export const Skills = () => {
 
   return (
     <section className='skills'>
+     <img src={wave} alt='' className='wave'/> 
      <h1 className='h1skills'>Skills</h1>
      <div className='skills-columns'>
       <div className='skills-column'>
