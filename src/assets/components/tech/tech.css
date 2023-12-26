@@ -8,6 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .h1tech {
@@ -21,9 +23,9 @@ line-height: normal;
 }
 
 .ptech {
-    width: 100%;
+    width: 80%;
     color: #FFF;
-    font-family: Hind;
+    font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -34,7 +36,14 @@ line-height: normal;
     .tech {
         padding: 64px 32px;
     }
+    .techwrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
+    .ptech {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width 1024px) {
@@ -42,8 +51,14 @@ line-height: normal;
         padding: 128px 64px;
     }
 
+    .techwrapper {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
     .ptech {
-        width: auto;
+        width: 80%;
         margin-left: 32px;
+        margin-right: 32px;
     }
 }
