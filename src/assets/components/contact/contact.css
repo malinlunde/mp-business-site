@@ -38,7 +38,7 @@
 .scroll-text {
 white-space: nowrap;
 position: absolute;
-animation: scroll-text 40s linear infinite;
+animation: scroll-text 60s linear infinite;
 color: white;
 font-size: 26px;
 }

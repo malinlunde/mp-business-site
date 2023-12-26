@@ -27,7 +27,7 @@ export const Contact = () => {
       </div>
       <div className='scroll-text-wrapper'>
         <div className='scroll-text'>
-        Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer · Malin Lunde · Fullstack Developer ·
+        Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer · Malin Lunde · Frontend Developer ·
         </div>
         </div>
      
