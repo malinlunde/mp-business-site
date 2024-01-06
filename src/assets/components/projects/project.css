@@ -42,6 +42,14 @@
   color: black;
 }
 
+.h2projectcard {
+  color: black;
+}
+
+.pprojectcard {
+  color: black;
+}
+
 .project-info {
   grid-column: 2;
   text-align: left;
