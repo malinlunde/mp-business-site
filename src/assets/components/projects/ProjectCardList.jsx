@@ -83,7 +83,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
     'project-weather-app': 'https://malin-weather-app-teamwork.netlify.app',
     'project-guess-who': 'https://malin-guess-who.netlify.app',
-    'project-chatbot': 'https://malin-lunde-chatbot.netlify.app/'
+    'project-chatbot': 'https://malin-lunde-chatbot.netlify.app/',
     'project-pizza': 'https://malins-pizza-project.netlify.app/',
   };
 
