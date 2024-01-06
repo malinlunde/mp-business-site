@@ -11,6 +11,7 @@
 
 .h2contact {
   font-size: 56px;
+  color: black;
 }
 
 .contact-name,
@@ -19,6 +20,7 @@
   font-weight: 400;
   font-size: 26px;
   margin: 0;
+  color: black;
 }
 
 .profile-image {
@@ -40,7 +42,7 @@
 .scroll-text {
 white-space: nowrap;
 position: absolute;
-animation: scroll-text 60s linear infinite;
+animation: scroll-text 80s linear infinite;
 color: white;
 font-size: 26px;
 }
