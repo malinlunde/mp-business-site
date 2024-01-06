@@ -10,6 +10,7 @@ import music from "../images/music.png";
 import movies from "../images/movies.png";
 import quiz from "../images/quiz.png";
 import pizza from "../images/pizza.jpg";
+import chatbot from "../images/chatbot.png";
 
 
 export const ProjectCardList = () => {
@@ -22,6 +23,7 @@ export const ProjectCardList = () => {
     'project-movies-vite',
     'project-weather-app',
     'project-guess-who',
+    'project-chatbot',
     'project-pizza',
   ];
 
@@ -61,6 +63,11 @@ export const ProjectCardList = () => {
       description: 'A classic Guess Who game built just in the beginning of the learning with Javascript, HTML and CSS, the project apply concepts like DOM manipulation, function definitions, conditional statements, object and array manipulation and much more. ',
       techniques: 'HTML5, Javascript, CSS3,',
     },
+    'project-chatbot': {
+      name: 'Project-Chatbot',
+      description: 'A chatbot build with Javascript',
+      techniques: 'HTML5, Javascript, CSS3,'
+    },
     'project-pizza': {
       name: 'Project-Javascript-Pizzeria',
       description: 'A captivating chatbot interface that engages users by asking questions, displaying messages, and providing precise responses.',
@@ -76,6 +83,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
     'project-weather-app': 'https://malin-weather-app-teamwork.netlify.app',
     'project-guess-who': 'https://malin-guess-who.netlify.app',
+    'project-chatbot': 'https://malin-lunde-chatbot.netlify.app/'
     'project-pizza': 'https://malins-pizza-project.netlify.app/',
   };
 
@@ -87,6 +95,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://github.com/malinlunde/project-movies-vite',
     'project-weather-app': 'https://github.com/malinlunde/project-weather-app',
     'project-guess-who': 'https://github.com/malinlunde/project-guess-who',
+    'project-chatbot': 'https://github.com/malinlunde/project-chatbot',
     'project-pizza': 'https://github.com/malinlunde/project-pizza',
   }
 
@@ -98,6 +107,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': movies, 
     'project-weather-app': weather,
     'project-guess-who': guess,
+    'project-chatbot': chatbot,
     'project-pizza': pizza,
   };
   
