@@ -34,9 +34,9 @@ export const ProjectCardList = () => {
       techniques: 'Zustand, React, Pair-programming, CSS3',
     },
     'project-happy-thoughts-vite': {
-      name: 'Project-Happy-Thoughts-Vite',
-      description: 'This project revolves around honing React state skills by implementing component lifecycles, utilizing the React Hook "useEffect," and working with APIs. The objective is to build a Twitter-like application called "Happy Thoughts," where users can fetch and post (happy) data.',
-      techniques: 'React, API, Postman, CSS3',
+      name: 'Project-Happy-Thoughts-Vite and Project-Happy-Thoughts-API',
+      description: 'This project was divided into to parts, one was the frontend that revolves around honing React state skills by implementing component lifecycles, utilizing the React Hook "useEffect," and working with APIs. The objective is to build a Twitter-like application called "Happy Thoughts," where users can fetch and post (happy) data.The second part of this project is the backend, where I created my own database with MongoDB and a deploy of the server on render and to get frontend and backend together and on-going.',
+      techniques: 'React, CSS3, HTML, API, MongoDB, Postman, Render',
     },
     'project-survey-vite': {
       name: 'Project-Survey-Vite',
@@ -61,17 +61,17 @@ export const ProjectCardList = () => {
     'project-guess-who': {
       name: 'Project-Guess-Who',
       description: 'A classic Guess Who game built just in the beginning of the learning with Javascript, HTML and CSS, the project apply concepts like DOM manipulation, function definitions, conditional statements, object and array manipulation and much more. ',
-      techniques: 'HTML5, Javascript, CSS3,',
+      techniques: 'HTML5, Javascript, CSS3',
     },
     'project-chatbot': {
       name: 'Project-Chatbot',
       description: 'A chatbot build with Javascript',
-      techniques: 'HTML5, Javascript, CSS3,'
+      techniques: 'HTML5, Javascript, CSS3'
     },
     'project-pizza': {
       name: 'Project-Javascript-Pizzeria',
-      description: 'A captivating chatbot interface that engages users by asking questions, displaying messages, and providing precise responses.',
-      techniques: 'HTML5, Javascript, CSS3,'
+      description: 'This project was my very first meeting with Javacsript, and it is a Javascript Pizzeria where the user can order a pizza and get questions and confirmations from a chatbot.',
+      techniques: 'HTML5, Javascript, CSS3'
     },
   };
   
