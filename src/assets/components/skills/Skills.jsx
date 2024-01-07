@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './skills.css';
-import wave from "../images/wave.png";
+import wave from "../icons/wave.svg";
+
+
 
 export const Skills = () => {
   const [skillsList] = useState([
