@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import jagImage from '../images/jag1.jpg';
-import Arrow from "../icons/Arrow.png"
+import Arrow from "../icons/arrow.svg"
 
 
 
