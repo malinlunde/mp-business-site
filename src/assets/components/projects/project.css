@@ -1,6 +1,6 @@
 .projects-container {
     display: flex;
-    width: 100%;
+    width: 100vw;
     padding: 128px 16px 50px 16px;
     flex-direction: column;
     align-items: center; 
@@ -19,18 +19,20 @@
 
 .project-card {
   display: grid;
-  flex-direction: 1fr 1fr;
+  flex-direction: 1fr;
   align-items: center;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .projectimage {
   height: auto;
   width: 100%;
   max-width: 300px;
-  border-bottom: 10px solid #FF70D9;
-  border-left: 10px solid #FF70D9;  
+  border-bottom: 10px solid #272727;
+  border-left: 10px solid #272727;  
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -131,6 +133,7 @@
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto auto;
     gap: 30px;
+    margin-right: 50px;
   }
 
   .projectimage {
@@ -141,6 +144,7 @@
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     text-align: left;
+    width: 75%;
   }
 
   .viewbutton-container {
