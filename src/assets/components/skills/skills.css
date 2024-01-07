@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 128px;
-    background: #8FBC8F; 
+    background: #272727;; 
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin-top: 0px
 }
@@ -40,7 +40,7 @@
     display: inline-flex;
     align-items: flex-start;
     color: #FFF;
-    background-color: #FF4575;
+    background-color: #FF70D9;
     padding: 8px;
     font-size: 24px;
     font-style: normal;
@@ -65,7 +65,7 @@
     display: inline-flex;
     align-items: flex-start;
     color: #FFF;
-    background-color: #2483e0;
+    background-color:#8a2be2;
     padding: 8px;
     font-size: 24px;
     font-style: normal;
@@ -79,7 +79,7 @@
     display: inline-flex;
     align-items: flex-start;
     color: #FFF;
-    background-color: #6db486;
+    background-color: #95D175;
     padding: 8px;
     font-size: 24px;
     font-style: normal;

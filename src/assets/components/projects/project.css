@@ -9,7 +9,7 @@
 
 .h1projects {
     align-self: stretch;
-    color: #8FBC8F;
+    color: #FF70D9;
     text-align: center;
     font-size: 56px;
     font-style: normal;
@@ -29,8 +29,8 @@
   height: auto;
   width: 100%;
   max-width: 300px;
-  border-bottom: 10px solid #8FBC8F;
-  border-left: 10px solid #8FBC8F;  
+  border-bottom: 10px solid #FF70D9;
+  border-left: 10px solid #FF70D9;  
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -85,12 +85,12 @@
 
 
 .netlifybutton:hover {
-  background-color: #FF4575;
+  background-color: #FF70D9;
   color: white;
 }
 
 .githubbutton:hover {
-  background-color: #0B24F5;
+  background-color: #8a2be2; 
   color: white;
 }
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './tech.css';
 
 export const Tech = () => {
-  const techText = "HTML, CSS, Flexbox, Grids, JavaScript, ES7, JSX, React, React Hooks, Node.js, Npm, Web Accessibility, APIs, mob-programming, pair-programming, GitHub."
+  const techText = "HTML, CSS, Flexbox, Grids, JavaScript, ES7, JSX, Zustand, React, React Hooks, Node.js, Npm, Web Accessibility, APIs, mob-programming, pair-programming, GitHub, MongoDB, Postman, Render."
   
   return (
     <section className='tech'>
