@@ -37,7 +37,8 @@ export const Skills = () => {
   ]
 
   return (
-    <section className='skills'>
+    <section className='skills-container'>
+     <div className='skills'>
      <img src={wave} alt='' className='wave'/> 
      <h1 className='h1skills'>Skills</h1>
      <div className='skills-columns'>
@@ -74,6 +75,7 @@ export const Skills = () => {
         </ul>
       </div>
 
+     </div>
      </div>
     </section>
     
