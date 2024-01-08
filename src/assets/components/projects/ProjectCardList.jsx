@@ -11,6 +11,7 @@ import movies from "../images/movies.png";
 import quiz from "../images/quiz.png";
 import pizza from "../images/pizza.jpg";
 import chatbot from "../images/chatbot.png";
+import auth from "../images/auth.png";
 
 
 export const ProjectCardList = () => {
@@ -22,6 +23,7 @@ export const ProjectCardList = () => {
     'project-music-releases-vite',
     'project-movies-vite',
     'project-weather-app',
+    'project-auth',
     'project-guess-who',
     'project-chatbot',
     'project-pizza',
@@ -58,6 +60,11 @@ export const ProjectCardList = () => {
       description: 'A simple weather dashboard providing todays weather, temperature, and a 5-day forecast. Utilized a weather API to fetch and present accurate data. This project emphasizes pair programming.',
       techniques: 'HTML5, CSS3, Javascript, OpenWeather API, pair-programming',
     },
+    'project-auth': {
+      name: 'Project-Auth',
+      description: 'This project was a combination of both frontend and backend to create a site with authentication, the user can register and then login to see protected information and then log out.',
+      techniques: 'React, Authentication, Routes, Mongoose, bcrypt, Cors, API, Express'
+    },
     'project-guess-who': {
       name: 'Project-Guess-Who',
       description: 'A classic Guess Who game built just in the beginning of the learning with Javascript, HTML and CSS, the project apply concepts like DOM manipulation, function definitions, conditional statements, object and array manipulation and much more. ',
@@ -82,6 +89,7 @@ export const ProjectCardList = () => {
     'project-music-releases-vite': 'https://malin-lunde-project-music-releases.netlify.app',
     'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
     'project-weather-app': 'https://malin-weather-app-teamwork.netlify.app',
+    'project-auth': 'https://splendorous-elf-6e001c.netlify.app/',
     'project-guess-who': 'https://malin-guess-who.netlify.app',
     'project-chatbot': 'https://malin-lunde-chatbot.netlify.app/',
     'project-pizza': 'https://malins-pizza-project.netlify.app/',
@@ -94,6 +102,7 @@ export const ProjectCardList = () => {
     'project-music-releases-vite': 'https://github.com/malinlunde/project-music-releases-vite',
     'project-movies-vite': 'https://github.com/malinlunde/project-movies-vite',
     'project-weather-app': 'https://github.com/malinlunde/project-weather-app',
+    'project-auth': 'https://github.com/malinlunde/project-auth',
     'project-guess-who': 'https://github.com/malinlunde/project-guess-who',
     'project-chatbot': 'https://github.com/malinlunde/project-chatbot',
     'project-pizza': 'https://github.com/malinlunde/project-pizza',
@@ -106,6 +115,7 @@ export const ProjectCardList = () => {
     'project-music-releases-vite': music,
     'project-movies-vite': movies, 
     'project-weather-app': weather,
+    'project-auth': auth,
     'project-guess-who': guess,
     'project-chatbot': chatbot,
     'project-pizza': pizza,
