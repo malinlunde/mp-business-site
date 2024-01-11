@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './skills.css';
-import wave from "../icons/wave.svg";
+import Wave from '../wave/Wave';
+
 
 
 
@@ -38,9 +39,7 @@ export const Skills = () => {
 
   return (
     <section className='skills-container'>
-      <div className='wave-container'>
-          <img src={wave} alt='' className='wave'/> 
-     </div>
+      <Wave />
      <div className='skills'>
      <h1 className='h1skills'>Skills</h1>
      <div className='skills-columns'>

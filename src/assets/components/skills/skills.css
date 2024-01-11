@@ -14,24 +14,6 @@
     margin-top: 0px
 }
 
-.wave-container {
-    box-sizing: border-box;
-    position: relative;
-    height: 0;
-    padding-top: 5%;
-    margin-bottom: -23px; 
-    width: 100%;
-}
-
-.wave {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto; 
-    z-index: 2;
-}
-
 .skills-columns {
    display: grid;
 }
@@ -103,10 +85,6 @@
    .skills-container {
     width: 100%;
    }
-
-   .wave-container {
-    padding-top: 4%; 
-    margin-bottom: -30px;
 }
    
     .skills-columns {
@@ -140,11 +118,6 @@
 @media screen and (min-width: 1024px) {
     .skills-container {
         width: 100%;
-    }
-    
-    .wave-container {
-        padding-top: 4%; 
-        margin-bottom: -40px;
     }
     
     .skills-columns {
