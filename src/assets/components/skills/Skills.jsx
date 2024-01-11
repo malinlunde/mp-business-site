@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './skills.css';
-
+import wave from "../icons/wave.svg";
 
 
 
@@ -38,6 +38,9 @@ export const Skills = () => {
 
   return (
     <section className='skills-container'>
+      <div className='wave-container'>
+          <img src={wave} alt='' className='wave'/> 
+     </div>
      <div className='skills'>
      <h1 className='h1skills'>Skills</h1>
      <div className='skills-columns'>
