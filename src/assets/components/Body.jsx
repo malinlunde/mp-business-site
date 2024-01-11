@@ -5,8 +5,7 @@ import { Tech } from './tech/Tech';
 import { Projects } from './projects/Projects';
 import { Skills } from './skills/Skills';
 import { Contact } from './contact/Contact';
-
-
+import wave from "./icons/wave.svg";
 
 export const Body = () => {
   return (
@@ -14,6 +13,9 @@ export const Body = () => {
         <Header />
         <Tech />
         <Projects />
+        <div className='wave-container'>
+          <img src={wave} alt='' className='wave'/> 
+        </div>
         <Skills />
         <Contact />
     </div>
