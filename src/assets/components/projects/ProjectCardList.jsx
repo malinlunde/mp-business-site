@@ -12,6 +12,7 @@ import quiz from "../images/quiz.png";
 import pizza from "../images/pizza.jpg";
 import chatbot from "../images/chatbot.png";
 import auth from "../images/auth.png";
+import qr from "../images/qr.png";
 
 
 export const ProjectCardList = () => {
@@ -24,6 +25,7 @@ export const ProjectCardList = () => {
     'project-movies-vite',
     'project-weather-app',
     'project-auth',
+    'project-custom-hooks-qr-code-generator-vite',
     'project-guess-who',
     'project-chatbot',
     'project-pizza',
@@ -65,10 +67,15 @@ export const ProjectCardList = () => {
       description: 'This project was a combination of both frontend and backend to create a site with authentication, the user can register and then login to see protected information and then log out.',
       techniques: 'React, Authentication, Routes, Mongoose, bcrypt, Cors, API, Express'
     },
+    'project-custom-hooks-qr-code-generator-vite': {
+      name: 'QR-code Generator',
+      description: 'Type in a URL and generate a QR code that you can download as an image.',
+      techniques: 'React, Custom Hooks, State Management'
+    },
     'project-guess-who': {
       name: 'Project-Guess-Who',
       description: 'A classic Guess Who game built just in the beginning of the learning with Javascript, HTML and CSS, the project apply concepts like DOM manipulation, function definitions, conditional statements, object and array manipulation and much more. ',
-      techniques: 'HTML5, Javascript, CSS3',
+      techniques: 'HTML5, Javascript, CSS3'
     },
     'project-chatbot': {
       name: 'Project-Chatbot',
@@ -90,6 +97,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://minaandmalinmoviesite.netlify.app',
     'project-weather-app': 'https://malin-weather-app-teamwork.netlify.app',
     'project-auth': 'https://splendorous-elf-6e001c.netlify.app/',
+    'project-custom-hooks-qr-code-generator-vite': 'https://malin-lunde-qrcode-generator.netlify.app',
     'project-guess-who': 'https://malin-guess-who.netlify.app',
     'project-chatbot': 'https://malin-lunde-chatbot.netlify.app/',
     'project-pizza': 'https://malins-pizza-project.netlify.app/',
@@ -103,6 +111,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': 'https://github.com/malinlunde/project-movies-vite',
     'project-weather-app': 'https://github.com/malinlunde/project-weather-app',
     'project-auth': 'https://github.com/malinlunde/project-auth',
+    'project-custom-hooks-qr-code-generator-vite': 'https://github.com/malinlunde/project-custom-hooks-qr-code-generator-vite',
     'project-guess-who': 'https://github.com/malinlunde/project-guess-who',
     'project-chatbot': 'https://github.com/malinlunde/project-chatbot',
     'project-pizza': 'https://github.com/malinlunde/project-pizza',
@@ -116,6 +125,7 @@ export const ProjectCardList = () => {
     'project-movies-vite': movies, 
     'project-weather-app': weather,
     'project-auth': auth,
+    'project-custom-hooks-qr-code-generator-vite': qr,
     'project-guess-who': guess,
     'project-chatbot': chatbot,
     'project-pizza': pizza,
