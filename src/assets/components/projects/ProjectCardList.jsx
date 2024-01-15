@@ -14,11 +14,13 @@ import chatbot from "../images/chatbot.png";
 import auth from "../images/auth.png";
 import qr from "../images/qr.png";
 import portfolio from "../images/portfolio.png";
+import final from "..images/final.png";
 
 
 export const ProjectCardList = () => {
   const [repos, setRepos] = useState([]);
   const projectsList = [
+    'final-project',
     'project-portfolio',
     'project-state-management-quiz-vite',
     'project-happy-thoughts-vite',
@@ -34,6 +36,11 @@ export const ProjectCardList = () => {
   ];
 
   const projectInfo = {
+    'final-project': {
+      name: 'Final-Project-Foodie-Moodie',
+      description: 'This Foodie Moodie -project was the final project within Technigos Web Development Bootcamp and it was a group-programming project using a lot of the different techniques we learned in both frontend and backend. It is a restaurant app that gives the user recommendations of restaurants based on what occasion and mood(s) the user selects. Fun and modern project with real data from our own database.',
+      techniques: 'HTML5, CSS3, React, Zustand, Web Accessibility, Node.js, Routes, Mongoose, MongoDB, Express',
+    },
     'project-portfolio': {
       name: 'Project-Portfolio',
       description: 'This project is the one you are looking at now, my Portfolio made with React and with implementing a fixed design, even though I personalized it a bit.',
@@ -97,6 +104,7 @@ export const ProjectCardList = () => {
   };
   
   const netlifyURLs = {
+    'final-project': 'https://foodiemoodie.netlify.app/',
     'project-portfolio': 'https://malin-lunde-portfolio.netlify.app',
     'project-state-management-quiz-vite': 'https://teamwork-quiz-vite-zustand.netlify.app',
     'project-happy-thoughts-vite': 'https://malin-lunde-happy-thoughts-vite.netlify.app',
@@ -112,6 +120,7 @@ export const ProjectCardList = () => {
   };
 
   const githubURLs = {
+    'final-project': 'https://github.com/malinlunde/final-project',
     'project-portfolio': 'https://github.com/malinlunde/project-portfolio',
     'project-state-management-quiz-vite': 'https://github.com/malinlunde/project-state-management-quiz-vite',
     'project-happy-thoughts-vite': 'https://github.com/malinlunde/project-happy-thoughts-vite',
@@ -127,6 +136,7 @@ export const ProjectCardList = () => {
   }
 
   const imageForProject = {
+    'final-project': final,
     'project-portfolio': portfolio,
     'project-state-management-quiz-vite': quiz, 
     'project-happy-thoughts-vite': happy,
