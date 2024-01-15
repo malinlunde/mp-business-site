@@ -14,7 +14,7 @@ import chatbot from "../images/chatbot.png";
 import auth from "../images/auth.png";
 import qr from "../images/qr.png";
 import portfolio from "../images/portfolio.png";
-import final from "..images/final.png";
+import final from "../images/final.png";
 
 
 export const ProjectCardList = () => {
