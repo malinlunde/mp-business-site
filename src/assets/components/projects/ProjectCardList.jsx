@@ -13,11 +13,13 @@ import pizza from "../images/pizza.jpg";
 import chatbot from "../images/chatbot.png";
 import auth from "../images/auth.png";
 import qr from "../images/qr.png";
+import portfolio from "../images/portfolio.png";
 
 
 export const ProjectCardList = () => {
   const [repos, setRepos] = useState([]);
   const projectsList = [
+    'project-portfolio',
     'project-state-management-quiz-vite',
     'project-happy-thoughts-vite',
     'project-survey-vite',
@@ -32,6 +34,11 @@ export const ProjectCardList = () => {
   ];
 
   const projectInfo = {
+    'project-portfolio': {
+      name: 'Project-Portfolio',
+      description: 'This project is the one you are looking at now, my Portfolio made with React and with implementing a fixed design, even though I personalized it a bit.',
+      techniques: 'React, Web Accessibility, CSS3',
+    },
     'project-state-management-quiz-vite': {
       name: 'Project-State-Management-Quiz-Vite',
       description: 'Collaborative multiple-choice quiz game for real foodies, using Zustand for seamless state management and well-styled interface built with teamwork',
@@ -90,6 +97,7 @@ export const ProjectCardList = () => {
   };
   
   const netlifyURLs = {
+    'project-portfolio': 'https://malin-lunde-portfolio.netlify.app',
     'project-state-management-quiz-vite': 'https://teamwork-quiz-vite-zustand.netlify.app',
     'project-happy-thoughts-vite': 'https://malin-lunde-happy-thoughts-vite.netlify.app',
     'project-survey-vite': 'https://project-survey-vite.netlify.app',
@@ -104,6 +112,7 @@ export const ProjectCardList = () => {
   };
 
   const githubURLs = {
+    'project-portfolio': 'https://github.com/malinlunde/project-portfolio',
     'project-state-management-quiz-vite': 'https://github.com/malinlunde/project-state-management-quiz-vite',
     'project-happy-thoughts-vite': 'https://github.com/malinlunde/project-happy-thoughts-vite',
     'project-survey-vite': 'https://github.com/malinlunde/project-survey-vite',
@@ -118,6 +127,7 @@ export const ProjectCardList = () => {
   }
 
   const imageForProject = {
+    'project-portfolio': portfolio,
     'project-state-management-quiz-vite': quiz, 
     'project-happy-thoughts-vite': happy,
     'project-survey-vite': survey,
