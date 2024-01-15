@@ -18,7 +18,9 @@ export const Skills = () => {
     'APIs',
     'Flexbox',
     'Web Accessibility',
+    'Git',
     'GitHub',
+    'Express',
   ]);
 
   const tools = [
@@ -27,6 +29,10 @@ export const Skills = () => {
    'Slack',
    'Stack Overflow',
    'Notion',
+   'Render',
+   'MongoDB',
+   'Netlify',
+   'Trello',
   ];
 
   const more = [
