@@ -16,7 +16,7 @@ export const Contact = () => {
       <img src={jagImage} alt='' className='profile-image'/>
       <p className='contact-name'>Malin Lunde</p>
       <p className='contact-number'>+46(0)734 33 97 18</p>
-      <p className='contact-mail'>malinlundhe@hotmail.com</p>
+      <p className='contact-mail'>malin.lunde@thetechadminsphere.com</p>
       <div className='icons-wrapper'>
         <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt='LinkedIn' className='linkedin-button' />
