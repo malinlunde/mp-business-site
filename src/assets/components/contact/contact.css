@@ -19,8 +19,8 @@
 .contact-name,
 .contact-number,
 .contact-mail {
-  font-weight: 400;
-  font-size: 26px;
+  font-weight: 200;
+  font-size: 18px;
   margin: 0;
   color: #272727;
 }
@@ -58,3 +58,13 @@ font-size: 26px;
   }
 }
 
+@media screen and (min-width: 600px) {
+  .contact-name,
+  .contact-number,
+  .contact-mail {
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+    color: #272727;
+  }
+}
