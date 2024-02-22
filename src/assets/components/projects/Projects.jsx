@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <section className='projects-container'>
       <section className='projects'>
-        <h1 className='h1projects'>Featured Projects</h1>
+        <h1 className='h1projects'>Referensobjekt</h1>
         <ProjectCardList />
       </section>
     </section>
