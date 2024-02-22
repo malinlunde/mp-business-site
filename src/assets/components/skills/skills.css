@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 128px;
-    background: #272727;; 
+    background: #283818; 
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin-top: 0px
 }
@@ -39,7 +39,7 @@
     display: inline-flex;
     align-items: flex-start;
     color: #FFF;
-    background-color: #FF70D9;
+    background-color: #DDA15E;
     padding: 8px;
     font-size: 24px;
     font-style: normal;
@@ -64,7 +64,7 @@
     display: inline-flex;
     align-items: flex-start;
     color: #FFF;
-    background-color:#8a2be2;
+    background-color:#BC6C25;
     padding: 8px;
     font-size: 24px;
     font-style: normal;
@@ -76,7 +76,7 @@
     display: inline-flex;
     align-items: flex-start;
     color: #FFF;
-    background-color: #95D175;
+    background-color: #606C38;
     padding: 8px;
     font-size: 24px;
     font-style: normal;

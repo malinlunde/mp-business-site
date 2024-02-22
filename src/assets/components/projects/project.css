@@ -10,7 +10,7 @@
 
 .h1projects {
     align-self: stretch;
-    color: #FF70D9;
+    color: #283618;;
     text-align: center;
     font-size: 56px;
     font-style: normal;
@@ -32,8 +32,8 @@
   height: auto;
   width: 100%;
   max-width: 300px;
-  border-bottom: 10px solid #272727;
-  border-left: 10px solid #272727;  
+  border-bottom: 10px solid #606C38;
+  border-left: 10px solid #606C38;  
   margin-left: 20px;
   margin-right: 20px;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './skills.css';
-import Wave from '../wave/Wave';
+
 
 
 
@@ -45,7 +45,6 @@ export const Skills = () => {
 
   return (
     <section className='skills-container'>
-      <Wave />
      <div className='skills'>
      <h1 className='h1skills'>Skills</h1>
      <div className='skills-columns'>
