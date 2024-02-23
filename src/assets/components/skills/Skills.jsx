@@ -7,49 +7,36 @@ import './skills.css';
 
 export const Skills = () => {
   const [skillsList] = useState([
-    'React',
-    'Node.js',
-    'JavaScript',
-    'HTML',
-    'CSS',
-    'Pair Programming',
-    'Mob Programming',
-    'JSX',
-    'APIs',
-    'Flexbox',
-    'Web Accessibility',
-    'Git',
-    'GitHub',
-    'Express',
+    'Plattläggning',
+    'Murar',
+    'XXXXX',
+    'XXXXX',
+    'XXXXX',
   ]);
 
   const tools = [
-   'Postman',
-   'Figma',
-   'Slack',
-   'Stack Overflow',
-   'Notion',
-   'Render',
-   'MongoDB',
-   'Netlify',
-   'Trello',
+   'Snöröjning',
+   'Sandupptagning',
+   'Sopning',
+   'XXXXX',
+   'XXXXX',
   ];
 
   const more = [
-    'Record keeping',
-    'Microsoft Office 365 & OneDrive',
-    'Committee administration',
-    'System administration',
-    'Customer service',
+    'Schaktning',
+    'Dränering',
+    'XXXXX',
+    'XXXXX',
+    'XXXXX',
   ]
 
   return (
     <section className='skills-container'>
      <div className='skills'>
-     <h1 className='h1skills'>Skills</h1>
+     <h1 className='h1skills'>Arbetsområden</h1>
      <div className='skills-columns'>
       <div className='skills-column'>
-      <h3 className='h3skills'>Code</h3>
+      <h3 className='h3skills'>Anläggning</h3>
       <ul>
         {skillsList.map((item, index) => (
           <li key={index} className='skills-item'>
@@ -60,7 +47,7 @@ export const Skills = () => {
       </div>
 
       <div className='skills-column'>
-        <h3 className='h3tools'>Tools</h3>
+        <h3 className='h3tools'>Service- och skötsel</h3>
         <ul>
           {tools.map((item, index) => (
             <li key={index} className='skills-item'>
@@ -71,7 +58,7 @@ export const Skills = () => {
       </div>
 
       <div className='skills-column'>
-        <h3 className='h3more'>More</h3>
+        <h3 className='h3more'>Grova entreprenader</h3>
         <ul>
           {more.map((item, index) => (
             <li key={index} className='skills-item'>

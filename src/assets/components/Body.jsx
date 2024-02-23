@@ -9,8 +9,8 @@ export const Body = () => {
   return (
     <div className="big-wrapper">
         <Header />
-        <Projects />
         <Skills />
+        <Projects />
         <Contact />
     </div>
   );

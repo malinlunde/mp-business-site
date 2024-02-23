@@ -11,7 +11,6 @@ export const Projects = () => {
         <ProjectCardList />
       </section>
     </section>
-   
   )
 }
 export default Projects;
