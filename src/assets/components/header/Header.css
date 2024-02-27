@@ -1,22 +1,117 @@
 .headerbox {
    display: flex;
-   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
    width: 100%;
 }
 
-.img {
-    width: 70%;
-    height: 70%;
+.logotyp {
+    width: 30%;
+    height: auto;
 }
 
-.h1 {
-    align-items: center;
+.h1intro {
+    font-size: 11px;
+    color: #283818;
+    padding: 5px;
 }
+
+.menu-icon {
+    width: 30px; 
+    height: auto;
+    cursor: pointer;
+    display: block; 
+  }
+
+  .nav-links {
+    display: none; /* Hide desktop-nav on mobile screens */
+  }
+  
+  /* Show mobile-nav when the showMenu state is true */
+.mobile-nav {
+    display: none;
+  }
+  
+  /* Show mobile-nav when the showMenu state is true */
+  .mobile-nav.visible {
+    display: flex;
+  }
+  
+  /* Hide desktop-nav when the showMenu state is true */
+  .nav-links.hidden {
+    display: none;
+  }
+
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .headerbox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+     }
+     
+     .logotyp {
+         width: 40%;
+         height: auto;
+     }
+     
+     .h1intro {
+         font-size: 14px;
+         color: #283818;
+     }
 
+     .nav-links {
+        display: none; /* Hide desktop-nav on mobile screens */
+      }
 }
 
+
 @media screen and (min-width: 1024px) {
-    
+    .headerbox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+     }
+     
+     .logotyp {
+         width: 20%;
+         height: auto;
+     }
+     
+     .h1intro {
+         font-size: 30px;
+         color: #283818;
+     }
+     
+   /* Show desktop-nav on larger screens */
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .nav-links .nav-link {
+    text-decoration: none;
+    color: #283818;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links .nav-link:hover {
+    color: #547c4d;
+  }
+
+  /* Hide mobile-nav on larger screens */
+  .mobile-nav {
+    display: none;
+  } 
+
+  .menu-icon {
+    display: none;
+  }
 }
