@@ -11,7 +11,6 @@ export const Body = () => {
         <Header />
         <Skills />
         <Projects />
-        <Contact />
     </div>
   );
 };
