@@ -1,3 +1,7 @@
+root {
+  background-color: #283818;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -65,4 +69,13 @@ body, html {
   .pstaffcard {
     color: #283818;
     font-size: 14px;
+  }
+
+  .home-button {
+    color: white;
+    background-color: #283818;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px; 
   }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import StaffPicture from '../images/staffpicture.jpg';
 import './aboutUs.css';
 
@@ -68,6 +69,11 @@ export const AboutUs = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div>
+        <Link to="/" className="home-button">
+          &#8592; Hem
+        </Link>
         </div>
      </section>
     </div>

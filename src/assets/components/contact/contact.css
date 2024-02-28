@@ -40,21 +40,15 @@
     margin-top: 25px; 
 }
 
-.scroll-text {
-white-space: nowrap;
-position: absolute;
-animation: scroll-text 80s linear infinite;
-color: white;
-font-size: 26px;
+.button {
+    margin-top: 40px;
 }
 
-@keyframes scroll-text {
-  0% {
-    transform: translateX(100%); 
-  }
-  100% {
-    transform:translateX(-100%);
-  }
+.home-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px; 
 }
 
 @media screen and (min-width: 600px) {
