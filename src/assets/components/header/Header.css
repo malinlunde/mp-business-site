@@ -48,11 +48,10 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding: 1rem;
      }
      
      .logotyp {
-         width: 40%;
+         width: 30%;
          height: auto;
      }
      
