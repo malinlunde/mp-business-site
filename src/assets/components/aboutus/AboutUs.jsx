@@ -19,11 +19,11 @@ export const AboutUs = () => {
     },
     'Person2': {
       name: 'Kalle Karlsson',
-      description: 'Description about the object',
+      description: 'Text om personen',
     },
     'Person3': {
       name: 'Konrad Konradsson',
-      description: 'Description about the object',
+      description: 'Text om personen',
     },
     'Person4': {
       name: 'Staffan Staffansson',
@@ -31,7 +31,7 @@ export const AboutUs = () => {
     },
     'Person5': {
       name: 'Lisa Larsson',
-      description: 'Description about the object',
+      description: 'Text om personen',
     },
   };
   
@@ -45,23 +45,32 @@ export const AboutUs = () => {
   };
   
   return (
-    <section className='staff'>
-      <div className='About'>
-
-      </div>
-      <div className='list'>
-        {staffList.map((person, index) => (
-          <div key={index} className='staff-card'>
-            <img src={imageForPerson[person]} className='staff-image' alt='' />
-            <div className='staff-text-container'>
-              <h2 className='h2staffcard'>{staffInfo[person].name}</h2>
-              <p className='pstaffcard'>{staffInfo[person].description}</p>
+    <div className='about-us'>
+     <section className='company-info'>
+      <h1 className='h1company'>Välkomna till M&P</h1>
+        <p className='pcompany'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce ultrices, nisi eu tincidunt mattis, libero ex bibendum arcu, ac ultricies elit nulla vitae urna.
+          Sed nec sagittis metus. Integer sit amet justo vel neque iaculis tincidunt id ac enim.
+          Curabitur eu justo ut nunc lacinia tincidunt.
+          Mauris vestibulum ipsum vel maximus tincidunt. Duis ac odio vel quam tincidunt laoreet.
+          Nullam auctor, odio ut sollicitudin facilisis, odio dui cursus elit, et luctus sem ex nec ligula.
+        </p>
+     </section>
+     <section className='staff'>
+        <div className='list'>
+          {staffList.map((person, index) => (
+            <div key={index} className='staff-card'>
+              <img src={imageForPerson[person]} className='staff-image' alt='' />
+              <div className='staff-text-container'>
+                <h2 className='h2staffcard'>{staffInfo[person].name}</h2>
+                <p className='pstaffcard'>{staffInfo[person].description}</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-     
-    </section>
+          ))}
+        </div>
+     </section>
+    </div>
   );
 };
 export default AboutUs;

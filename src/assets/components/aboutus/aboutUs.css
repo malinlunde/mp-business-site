@@ -1,6 +1,33 @@
-.staff {
-    background-color: #F5F5F5;
-    padding: 20px;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.about-us {
+    background-color: #283818;
+    color: white;
+    padding: 20px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.company-info {
+    text-align: center;
+  }
+  
+  .h1company {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+  .pcompany {
+    font-size: 16px;
+    line-height: 1.6;
   }
   
   .list {
@@ -30,12 +57,12 @@
   }
   
   .h2staffcard {
-    color: #333333;
+    color: #283818;
     font-size: 18px;
     margin-bottom: 8px;
   }
   
   .pstaffcard {
-    color: #666666;
+    color: #283818;
     font-size: 14px;
   }
