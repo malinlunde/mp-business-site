@@ -1,0 +1,41 @@
+.staff {
+    background-color: #F5F5F5;
+    padding: 20px;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .staff-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .staff-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .staff-text-container {
+    margin-top: 15px;
+  }
+  
+  .h2staffcard {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .pstaffcard {
+    color: #666666;
+    font-size: 14px;
+  }
