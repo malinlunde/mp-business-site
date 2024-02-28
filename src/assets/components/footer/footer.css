@@ -1,5 +1,5 @@
 .footer {
-    background: #283818; 
+    background: white; 
     bottom: 0;
     width: 100%;
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 .footer a { 
-    color: white;
+    color: #606C38;
     text-decoration: none;
     font-weight: bold;
 }
