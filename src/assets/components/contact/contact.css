@@ -11,6 +11,13 @@
   padding: 40px;
 }
 
+.contact-box {
+  max-width: 60%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+}
 .h2contact {
   font-size: 50px;
   color:#283818;
@@ -26,11 +33,6 @@
   margin-top: 20px; /* Add margin for spacing */
 }
 
-.contact-label {
-  color: #283818;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
 
 .contact-detail {
   font-size: 16px;
