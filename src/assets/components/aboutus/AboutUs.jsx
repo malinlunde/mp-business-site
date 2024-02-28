@@ -48,14 +48,11 @@ export const AboutUs = () => {
   return (
     <div className='about-us'>
      <section className='company-info'>
-      <h1 className='h1company'>Välkomna till M&P</h1>
+      <h1 className='h1company'>M&P i Katrineholm AB</h1>
         <p className='pcompany'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Fusce ultrices, nisi eu tincidunt mattis, libero ex bibendum arcu, ac ultricies elit nulla vitae urna.
-          Sed nec sagittis metus. Integer sit amet justo vel neque iaculis tincidunt id ac enim.
-          Curabitur eu justo ut nunc lacinia tincidunt.
-          Mauris vestibulum ipsum vel maximus tincidunt. Duis ac odio vel quam tincidunt laoreet.
-          Nullam auctor, odio ut sollicitudin facilisis, odio dui cursus elit, et luctus sem ex nec ligula.
+        Välkommen till M&P – din pålitliga partner för service och entreprenad sedan 2019! Tommie Magnusson grundade M&P med en vision om att erbjuda högkvalitativa tjänster inom schaktning, grävning, markanläggning, plattsättning, sandupptagning och mer.
+
+Vi är stolta över vårt erfarna femmannateam som brinner för att överträffa kundförväntningar. M&P, ett aktiebolag med bas i Katrineholm, fokuserar på att skapa långsiktiga relationer genom att förstå och uppfylla våra kunders unika behov. Oavsett om det är små reparationer eller större projekt, kan du lita på oss för pålitliga och effektiva lösningar. Tack för att du väljer M&P – där kvalitet och pålitlighet står i fokus!
         </p>
      </section>
      <section className='staff'>

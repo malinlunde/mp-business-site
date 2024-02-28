@@ -8,56 +8,47 @@
   text-align: center;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: white;
+  padding: 40px;
 }
 
 .h2contact {
-  font-size: 56px;
-  color:#272727;
+  font-size: 50px;
+  color:#283818;
 }
 
-.contact-name,
-.contact-number,
-.contact-mail {
-  font-weight: 200;
+.logotyp {
+  width: 200px; /* Adjust image size as needed */
+  height: auto;
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.contact-info {
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.contact-label {
+  color: #283818;
   font-size: 18px;
-  margin: 0;
-  color: #272727;
+  margin-bottom: 5px;
 }
 
-.profile-image {
-  margin-bottom: 30px;
-}
-
-.scroll-text-wrapper {
-    position: relative;
-    width: 100%;
-    height: 114px;
-    overflow: hidden; 
-    background: #FF70D9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px; 
+.contact-detail {
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .button {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .home-button {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 16px;
-  margin-bottom: 20px; 
-}
-
-@media screen and (min-width: 600px) {
-  .contact-name,
-  .contact-number,
-  .contact-mail {
-    font-weight: 400;
-    font-size: 26px;
-    margin: 0;
-    color: #272727;
-  }
+  margin-bottom: 20px;
+  background-color: #283818;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
