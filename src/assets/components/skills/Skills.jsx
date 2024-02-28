@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './skills.css';
-
-
-
+import Arrow from '../images/arrow.svg';
 
 
 export const Skills = () => {
@@ -68,6 +66,9 @@ export const Skills = () => {
         </ul>
       </div>
 
+     </div>
+     <div className='arrow'>
+      <img src={Arrow} alt='Arrow' className='Arrow' />
      </div>
      </div>
     </section>

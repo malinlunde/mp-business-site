@@ -6,7 +6,7 @@
 }
 
 .logotyp {
-    width: 30%;
+    width: 28%;
     height: auto;
 }
 
@@ -76,7 +76,7 @@
      }
      
      .logotyp {
-         width: 20%;
+         width: 18%;
          height: auto;
      }
      
@@ -100,10 +100,14 @@
     color: #283818;
     margin-right: 20px;
     transition: color 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
   }
 
   .nav-links .nav-link:hover {
     color: #547c4d;
+    text-decoration: underline;
+    font-weight: 700;
   }
 
   /* Hide mobile-nav on larger screens */
