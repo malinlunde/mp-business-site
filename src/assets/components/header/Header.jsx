@@ -16,41 +16,28 @@ export const Header = () => {
   return (
     <section className='header'>
       <div className='headerbox'>
-          <img src={logotyp} alt='' className='logotyp'/>
+          <img src={logotyp} alt='Logo' className='logotyp'/>
         <h1 className='h1intro'>Din lokala markentreprenad i Sörmland</h1>
         
         {/* Menu icon for mobile */}
         <img 
         src={menuIcon} 
         alt="Menu" 
-        className={`menu-icon ${showMenu ? 'hidden' : ''}`}
+        className='menu-icon'
         onClick={toggleMenu} 
         />
-
-        {/* Navigation links for tablet and desktop */}
-        <nav className={`nav-links ${showMenu ? 'hidden' : ''}`}>
-          <ul>
-            <li>
-              <Link to="/contact" className='nav-link'>Kontakt</Link>
-            </li>
-            <li>
-              <Link to="/about" className='nav-link'>Om oss</Link>
-            </li>
-          </ul>
-        </nav>
-
-        {/* Navigation links for mobile */}
-        <nav className={`mobile-nav ${showMenu ? '' : 'hidden'}`}>
-          <ul>
-            <li>
-              <Link to="/contact" className='nav-link'>Contact</Link>
-            </li>
-            <li>
-              <Link to="/about" className='nav-link'>About Us</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </section>
+         {/* Navigation links */}
+         <nav className={`nav-links ${showMenu ? 'visible' : ''}`}>
+        <ul>
+          <li>
+            <Link to="/contact" className='nav-link' onClick={toggleMenu}>Kontakt</Link>
+          </li>
+          <li>
+            <Link to="/about" className='nav-link' onClick={toggleMenu}>Om oss</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
   );
 };
