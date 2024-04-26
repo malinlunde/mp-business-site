@@ -56,7 +56,7 @@ export const Skills = () => {
       </div>
 
       <div className='skills-column'>
-        <h3 className='h3more'>Grova entreprenader</h3>
+        <h3 className='h3more'>Markentreprenad</h3>
         <ul>
           {more.map((item, index) => (
             <li key={index} className='skills-item'>
