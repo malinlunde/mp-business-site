@@ -64,7 +64,9 @@ export const ProjectWalling = () => {
 
     return (
         <section className="carousell">
-        <h1>Murar</h1>
+        <div className='h3'>
+            <h3>Murar</h3>
+        </div>
         <div className="header-row">
             <button className="prev-button" onClick={prevProject}>
                 <img src={leftarrow} alt="Previous" className='left-arrow-img'/>
