@@ -109,6 +109,7 @@ export const Carousell = () => {
 
     return (
         <section className="carousell">
+            <h1>Plattläggning</h1>
             <div className="header-row">
                 <button className="prev-button" onClick={prevProject}>
                     <img src={leftarrow} alt="Previous" className='left-arrow-img'/>
