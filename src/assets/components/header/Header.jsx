@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-import logotyp from "../icons/logotyp.png";
+import logotyp from "../images/LogoMP.png";
 import menuIcon from "../icons/menu.jpg";
 import { Link } from "react-router-dom";
 
