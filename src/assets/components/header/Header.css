@@ -12,34 +12,30 @@
     height: auto;
 }
 
-.h1intro {
-    flex: 1;
-    font-size: 12px;
-    color: black;
-    padding: 5px;
-    text-align: center;
+.nav-links {
+  text-align: right;
 }
 
-.menu-icon {
-    width: 30px; 
-    height: auto;
-    cursor: pointer;
-    display: block; 
-    padding-left: 10px;
-    margin-right: 10px;
-  }
-
-  /* Show mobile-nav when the showMenu state is true */
-.mobile-nav {
+.nav-links ul {
+  list-style-type: none;
   display: flex;
 }
 
-/* Hide desktop-nav and menu-icon on mobile screens */
-@media screen and (max-width: 599px) {
-   .nav-links {
-    display: none;
-  }
+.nav-links .nav-link {
+  text-decoration: none;
+  color: #283818;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  font-size: 16px;
 }
+
+.nav-links .nav-link:hover {
+  color: #547c4d;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     .headerbox {
@@ -57,10 +53,6 @@
          font-size: 14px;
          color: #283818;
      }
-
-     .nav-links {
-        display: none; /* Hide desktop-nav on mobile screens */
-      }
 }
 
 
@@ -107,12 +99,5 @@
     font-weight: 700;
   }
 
-  /* Hide mobile-nav on larger screens */
-  .mobile-nav {
-    display: none;
-  } 
 
-  .menu-icon {
-    display: none;
-  }
 }
