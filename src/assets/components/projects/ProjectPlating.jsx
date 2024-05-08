@@ -23,7 +23,9 @@ import plattor17 from '../images/plattor/plattor17.jpeg';
 import plattor18 from '../images/plattor/plattor18.jpeg';
 import plattor19 from '../images/plattor/plattor19.jpeg';
 
-export const plattor = [
+export const ProjectPlating = () => {
+    const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+    const projects = [
     {
         id: 1, 
         images: [
@@ -96,9 +98,6 @@ export const plattor = [
     },
 ];
 
-export const Carousell = () => {
-    const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
-
     const nextProject = () => {
         setCurrentProjectIndex((currentProjectIndex + 1) % projects.length);
     };
@@ -116,6 +115,7 @@ export const Carousell = () => {
                 </button>
                 <div className="project-image">
                     <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />  
+                    <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />  
                 </div>
                 <button className="next-button" onClick={nextProject}>
                     <img src={rightarrow} alt="Next" className='right-arrow-img'/>
@@ -126,4 +126,4 @@ export const Carousell = () => {
     )
 };
 
-export default Carousell;
+export default ProjectPlating;

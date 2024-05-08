@@ -11,8 +11,9 @@ import grund5 from '../images/grund/grund5.jpeg';
 import grund6 from '../images/grund/grund6.jpeg';
 import grund7 from '../images/grund/grund7.jpeg';
 
-
-export const foundation = [
+export const ProjectFoundation = () => {
+    const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+    const projects = [
     {
         id: 1, 
         images: [
@@ -43,9 +44,6 @@ export const foundation = [
     },
 ];
 
-export const Carousell = () => {
-    const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
-
     const nextProject = () => {
         setCurrentProjectIndex((currentProjectIndex + 1) % projects.length);
     };
@@ -56,21 +54,22 @@ export const Carousell = () => {
 
     return (
         <section className="carousell">
-            <h1>Anläggning och markentreprenad</h1>
-            <div className="header-row">
-                <button className="prev-button" onClick={prevProject}>
-                    <img src={leftarrow} alt="Previous" className='left-arrow-img'/>
-                </button>
-                <div className="project-image">
-                    <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />  
-                </div>
-                <button className="next-button" onClick={nextProject}>
-                    <img src={rightarrow} alt="Next" className='right-arrow-img'/>
-                </button>
-            
+        <h1>Anläggning och markentreprenad</h1>
+        <div className="header-row">
+            <button className="prev-button" onClick={prevProject}>
+                <img src={leftarrow} alt="Previous" className='left-arrow-img'/>
+            </button>
+            <div className="project-image">
+                <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />  
+                <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />  
             </div>
-        </section>
-    )
+            <button className="next-button" onClick={nextProject}>
+                <img src={rightarrow} alt="Next" className='right-arrow-img'/>
+            </button>
+        
+        </div>
+    </section>
+)
 };
 
-export default Carousell;
+export default ProjectFoundation;
