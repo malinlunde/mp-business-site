@@ -30,10 +30,10 @@ export const Header = () => {
          <nav className={`nav-links ${showMenu ? 'visible' : ''}`}>
         <ul>
           <li>
-            <Link to="/contact" className='nav-link' onClick={toggleMenu}>Kontakt</Link>
+            <Link to="/contact" className='nav-link' onClick={toggleMenu}>Kontakta oss</Link>
           </li>
           <li>
-            <Link to="/about" className='nav-link' onClick={toggleMenu}>Om oss</Link>
+            <Link to="/about" className='nav-link' onClick={toggleMenu}>Vi på M&P</Link>
           </li>
         </ul>
       </nav>

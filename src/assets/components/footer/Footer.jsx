@@ -5,9 +5,7 @@ export const Footer = () => {
   
     return (
         <div className='footer'>
-         <a href="https://www.linkedin.com/in/malin-lunde-9a4558297/">
-          (C) Malin Lunde
-        </a>
+        (C) 2024 M&P Skapad av:  <a href="https://thetechadminsphere.com/"> thetechadminsphere</a>
         </div>
     );
   };
