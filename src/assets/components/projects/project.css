@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+
 .carousell {
   display: flex;
   flex-direction: column;
@@ -7,6 +9,7 @@
 
 .h3 {
   color: white;
+  font-family: "Wix Madefor Display", sans-serif;
 }
 
 .header-row {

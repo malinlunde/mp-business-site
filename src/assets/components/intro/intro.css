@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 .intro-container {
 border: 2px solid #BC6C25; 
@@ -22,7 +22,7 @@ margin-bottom: 20px;
 }
 
 .h2 {
-font-family: "Great Vibes", cursive;
+font-family: "Wix Madefor Display", sans-serif;
 font-size: 30px;
 color: black;
 }
