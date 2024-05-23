@@ -15,12 +15,17 @@
 }
 
 .fiveIcon {
-    width: 30%;
+    width: 40%;
+    height: auto;
+}
+.logotyp {
+    width: 80%;
     height: auto;
 }
 
 .CreatedBy {
 margin: 10px;
+font-size: 14px;
 }
 
 .footer a { 
@@ -33,9 +38,33 @@ margin: 10px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-
+    .fiveIcon {
+        width: 30%;
+        height: auto;
+    }
+    .logotyp {
+        width: 90%;
+        height: auto;
+    }
+    
+    .CreatedBy {
+    margin: 14px;
+    font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-
+    .fiveIcon {
+        width: 28%;
+        height: auto;
+    }
+    .logotyp {
+        width: 1000%;
+        height: auto;
+    }
+    
+    .CreatedBy {
+    margin: 18px;
+    font-size: 14px;
+    }
 }
