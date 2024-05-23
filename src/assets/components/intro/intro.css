@@ -8,43 +8,82 @@ margin-bottom: 20px;
 
 .intro {
  display: flex;
+ flex-direction: column;
  align-items: center;
- justify-content: space-around;
+ justify-content: center;
  margin-bottom: 30px;
 }
 
 .text-box, 
 .intro-image {
     flex: 1;
-    padding: 50px;
+    padding: 20px;
 }
 
 .h2-text {
 font-family: "Wix Madefor Display", sans-serif;
-font-size: 30px;
+font-size: 18px;
 color: black;
+text-align: center;
 }
 
 .ptext {
 color: black;
+text-align: center;
 }
 
 .intro-image {
 display: flex;
 justify-content: center;
 align-items: center;
+margin-bottom: 20px;
 }
 
 .introimage {
     max-width: 100%;
-    border-color: #BC6C25;
     border-radius: 50%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-
-}
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .text-box, 
+      .intro-image {
+        padding: 50px;
+      }
+    
+      .h2-text {
+        font-size: 30px;
+        text-align: left;
+      }
+    
+      .ptext {
+        text-align: left;
+      }
+    }
 
 @media screen and (min-width: 1024px) {
-
-}
+    .intro {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+    
+      .text-box, 
+      .intro-image {
+        padding: 50px;
+      }
+    
+      .h2-text {
+        font-size: 30px;
+        text-align: left;
+      }
+    
+      .ptext {
+        text-align: left;
+      }
+    }
