@@ -40,3 +40,11 @@ align-items: center;
     border-color: #BC6C25;
     border-radius: 50%;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}

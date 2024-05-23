@@ -9,14 +9,11 @@ export const Contact = () => {
       <div className='h2'>
         <h2>Kontakt</h2>
       </div>
-      <div className='contact-info'>
-        <p>Kontakta M&P idag för att diskutera hur vi kan hjälpa dig med ditt nästa projekt. Vi finns här för att svara på dina frågor och ge detaljerad information om våra tjänster.</p>
         <div className='details'>
           <p className='contact-detail'>Kundansvarig: Tommie Magnusson</p>
-          <p className='contact-detail'>Telefonnummer: 0707575067</p>
-          <p className='contact-detail'>E-post: info.mpkab@gmail.com eller tommie.mpkab@gmail.com</p>
+          <p className='contact-detail'>Telefon: +46 (0) 707575067</p>
+          <p className='contact-detail'>E-post: info.mpkab@gmail.com</p>
         </div>
-      </div>
     </section>
   );
 };
