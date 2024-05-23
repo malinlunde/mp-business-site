@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './project.css';
-import leftarrow from '../images/leftarrow.png';
-import rightarrow from '../images/rightarrow.png';
+import leftarrow from '../icons/arrowback.png';
+import rightarrow from '../icons/arrowforward.png';
 import husgrund from '../images/grund/husgrund.jpeg';
 import husgrund1 from '../images/grund/husgrund1.jpeg';
 import husgrund2 from '../images/grund/husgrund2.jpeg';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './project.css';
-import leftarrow from '../images/leftarrow.png';
-import rightarrow from '../images/rightarrow.png';
+import leftarrow from '../icons/arrowback.png';
+import rightarrow from '../icons/arrowforward.png';
 import murar from '../images/murar/murar.jpeg';
 import murar1 from '../images/murar/murar1.jpeg';
 import murar2 from '../images/murar/murar2.jpeg';

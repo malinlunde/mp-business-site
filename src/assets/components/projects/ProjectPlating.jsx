@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './project.css';
-import leftarrow from '../images/leftarrow.png';
-import rightarrow from '../images/rightarrow.png';
+import leftarrow from '../icons/arrowback.png';
+import rightarrow from '../icons/arrowforward.png';
 import plattor from '../images/plattor/plattor.jpeg';
 import plattor1 from '../images/plattor/plattor1.jpeg';
 import plattor2 from '../images/plattor/plattor2.jpeg';
