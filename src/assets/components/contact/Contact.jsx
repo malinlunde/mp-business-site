@@ -14,11 +14,6 @@ export const Contact = () => {
           <p className='contact-detail'>Telefonnummer: 0707575067</p>
           <p className='contact-detail'>E-post: info.mpkab@gmail.com eller tommie.mpkab@gmail.com</p>
         </div>
-        <div className='button'>
-        <Link to="/" className="home-button">
-          &#8592; Hem
-        </Link>
-      </div>
       </div>
     </section>
   );
