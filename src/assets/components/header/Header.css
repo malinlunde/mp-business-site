@@ -4,21 +4,25 @@
    justify-content: space-between;
    width: 100%;
    box-sizing: border-box;
+   padding: 1rem;
 }
 
 .logotyp {
-    flex: 1;
-    max-width: 25%;
+    width: 25%;
     height: auto;
 }
 
 .nav-links {
-  text-align: right;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .nav-links ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links .nav-link {
@@ -36,68 +40,56 @@
   font-weight: 700;
 }
 
-
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-    .headerbox {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-     }
-     
-     .logotyp {
-         width: 30%;
-         height: auto;
-     }
-     
-     .h1intro {
-         font-size: 14px;
-         color: #283818;
-     }
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-
-@media screen and (min-width: 1024px) {
-    .headerbox {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding: 1rem;
-     }
-     
-     .logotyp {
-         width: 18%;
-         height: auto;
-     }
-     
-     .h1intro {
-         font-size: 30px;
-         color: #283818;
-     }
-     
-   /* Show desktop-nav on larger screens */
+@media screen and (max-width: 1024px) {
   .nav-links {
-    display: flex;
+    display: none;
   }
 
-  .nav-links ul {
-    list-style-type: none;
-    display: flex;
+  .nav-links.open {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background: white;
+    width: 80%;
+    max-width: 300px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
 
-  .nav-links .nav-link {
-    text-decoration: none;
-    color: #283818;
-    margin-right: 20px;
-    transition: color 0.3s ease;
-    font-weight: 500;
-    font-size: 16px;
+  .nav-links.open ul {
+    display: block;
+    padding: 1rem;
   }
 
-  .nav-links .nav-link:hover {
-    color: #547c4d;
-    text-decoration: underline;
-    font-weight: 700;
+  .nav-links.open .nav-link {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
   }
 
+  .menu-icon {
+    display: block;
+  }
 
+  .logotyp {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .logotyp {
+    width: 40%;
+  }
+
+  .nav-links.open {
+    top: 60px;
+    right: 10px;
+  }
 }
