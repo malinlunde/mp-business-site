@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import logotyp from "../images/LogoMP.png";
 import { Link } from "react-router-dom";
+import closingIcon from "../icons/close.png";
+import menuIcon from "../icons/menu.png";
 
 
 
