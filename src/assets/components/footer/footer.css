@@ -1,16 +1,16 @@
 .footer {
-    background: #283818;
     bottom: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55px;
-    color: white;
+}
+
+.fiveIcon {
+    width: 20%;
 }
 
 .footer a { 
-    color: white;
     text-decoration: none;
     font-weight: normal;
 }

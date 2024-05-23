@@ -1,5 +1,4 @@
 import React from 'react'
-import logotyp from '../images/LogoMP.png';
 import './contact.css';
 
 
