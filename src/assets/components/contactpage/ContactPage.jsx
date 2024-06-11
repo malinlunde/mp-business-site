@@ -14,9 +14,9 @@ export const ContactPage = () => {
         </p>
       </div>
       <div className='contact'>
-        <p className='contact-detail'>Kundansvarig: Tommie Magnusson</p>
-        <p className='contact-detail'>Telefon: +46 (0) 707575067</p>
-        <p className='contact-detail'>E-post: info.mpkab@gmail.com</p>
+        <p className='contact-detail-page'>Kundansvarig: Tommie Magnusson</p>
+        <p className='contact-detail-page'>Telefon: +46 (0) 707575067</p>
+        <p className='contact-detail-page'>E-post: info.mpkab@gmail.com</p>
       </div>
       <div>
         <Link to="/" className="home-button">
