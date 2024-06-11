@@ -5,8 +5,8 @@ body, html {
 }
 
 .about-us {
-    background-color: white;
-    color: #283818;
+    color: white;
+    background-color: #283818;
     padding: 40px; 
     margin: 50px 30px;
     box-sizing: border-box;
@@ -16,8 +16,8 @@ body, html {
 }
 
 .company-info {
-    color: #283818;
-    background-color: white;
+    color: white;
+    background-color: #283818;
     text-align: center;
     padding: 30px;
   }
@@ -35,8 +35,6 @@ body, html {
   }
   
   .staff {
-    color: #283818;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,8 +43,6 @@ body, html {
 
   .contact {
     text-align: center;
-    color: #283818;
-    background-color: white;
   }
 
   .contact-detail {
@@ -56,8 +52,8 @@ body, html {
   }
 
   .home-button {
-    color: #283818;
-    background-color: white;
+    color: white;
+    background-color: #283818;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;

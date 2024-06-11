@@ -11,7 +11,7 @@ export const Intro = () => {
            <h2>Din lokala markentreprenad i Sörmland</h2>
          </div>
          <div className='ptext'>
-          <p>Välkommen till M&P - det lilla företaget med den stora kompetensen inom mark och anläggning. Vi är specialister på plattläggningar, murar och husgrunder samt erbjuder service inom snöröjning och sandupptagning. Se våra referensbilder för inspiration! </p>
+          <p>Välkommen till M&P - det lilla företaget med den stora kompetensen inom mark och anläggning. Vi har goda erfarenheter av marksten så som plattläggningar och erbjuder service inom snöröjning och sandupptagning. Se våra referensbilder för inspiration! </p>
           <p>Vi samarbetar med partners för större entreprenader och tar även emot enskilda uppdrag för företag och privatpersoner. Kontakta oss idag för offertförfrågningar och låt oss skapa en fantastisk utomhusmiljö tillsammans!</p>
          </div>
          

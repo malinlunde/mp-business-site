@@ -22,6 +22,8 @@ import plattor16 from '../images/plattor/plattor16.jpeg';
 import plattor17 from '../images/plattor/plattor17.jpeg';
 import plattor18 from '../images/plattor/plattor18.jpeg';
 import plattor19 from '../images/plattor/plattor19.jpeg';
+import plattor20 from '../images/plattor/plattor20.jpeg';
+import plattor21 from '../images/plattor/plattor21.jpeg';
 
 export const ProjectPlating = () => {
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
@@ -94,6 +96,13 @@ export const ProjectPlating = () => {
         images: [
             plattor18, 
             plattor19,
+        ],
+    },
+    {
+        id: 11, 
+        images: [
+            plattor20, 
+            plattor21,
         ],
     },
 ];
