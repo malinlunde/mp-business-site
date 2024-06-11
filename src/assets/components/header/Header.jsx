@@ -42,10 +42,7 @@ export const Header = () => {
             <span className='nav-link' onClick={() => handleNavigation('/#husgrunder')}>Husgrunder/Anläggning</span>
           </li>
           <li>
-            <span className='nav-link' onClick={() => handleNavigation('/#kontakt')}>Kontakta oss</span>
-          </li>
-          <li>
-            <Link to="/omoss" className='nav-link' onClick={() => setIsOpen(false)}>Vi på M&P</Link>
+            <Link to="/omoss" className='nav-link' onClick={() => setIsOpen(false)}>Kontakta oss</Link>
           </li>
         </ul>
       </nav>
