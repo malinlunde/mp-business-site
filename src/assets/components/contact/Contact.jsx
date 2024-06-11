@@ -5,7 +5,7 @@ import './contact.css';
   
 export const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact-on-main'>
       <div className='h2'>
         <h2>Kontakt</h2>
       </div>
