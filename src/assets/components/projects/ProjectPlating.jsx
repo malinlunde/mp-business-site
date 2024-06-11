@@ -28,84 +28,51 @@ import plattor21 from '../images/plattor/plattor21.jpeg';
 export const ProjectPlating = () => {
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
     const projects = [
-    {
-        id: 1, 
-        images: [
-            plattor,
-            plattor1,
-        ],
-    },
-    {
-        id: 2, 
-        images: [
-            plattor2,
-            plattor3,
-        ],
-    },
-    {
-        id: 3, 
-        images: [
-            plattor4,
-            plattor5,
-        ],
-    },
-    {
-        id: 4, 
-        images: [
-            plattor6,
-            plattor7,
-        ],
-    },
-    {
-        id: 5, 
-        images: [
-            plattor8,
-            plattor9,
-        ],
-    },
-    {
-        id: 6, 
-        images: [
-            plattor10,
-            plattor11,
-        ],
-    },
-    {
-        id: 7, 
-        images: [
-            plattor12,
-            plattor13,
-        ],
-    },
-    {
-        id: 8, 
-        images: [
-            plattor14,
-            plattor15,
-        ],
-    },
-    {
-        id: 9, 
-        images: [
-            plattor16, 
-            plattor17,
-        ],
-    },
-    {
-        id: 10, 
-        images: [
-            plattor18, 
-            plattor19,
-        ],
-    },
-    {
-        id: 11, 
-        images: [
-            plattor20, 
-            plattor21,
-        ],
-    },
-];
+        {
+            id: 1,
+            images: [plattor, plattor1],
+        },
+        {
+            id: 2,
+            images: [plattor2, plattor3],
+        },
+        {
+            id: 3,
+            images: [plattor4, plattor5],
+        },
+        {
+            id: 4,
+            images: [plattor6, plattor7],
+        },
+        {
+            id: 5,
+            images: [plattor8, plattor9],
+        },
+        {
+            id: 6,
+            images: [plattor10, plattor11],
+        },
+        {
+            id: 7,
+            images: [plattor12, plattor13],
+        },
+        {
+            id: 8,
+            images: [plattor14, plattor15],
+        },
+        {
+            id: 9,
+            images: [plattor16, plattor17],
+        },
+        {
+            id: 10,
+            images: [plattor18, plattor19],
+        },
+        {
+            id: 11,
+            images: [plattor20, plattor21],
+        },
+    ];
 
     const nextProject = () => {
         setCurrentProjectIndex((currentProjectIndex + 1) % projects.length);
@@ -117,25 +84,37 @@ export const ProjectPlating = () => {
 
     return (
         <section className="carousell">
-            <div className='h3'>
-            <h3>Plattläggning</h3>
+            <div className="h3">
+                <h3>Plattläggning</h3>
             </div>
-        
-            <div className="header-row">
-                <button className="prev-button" onClick={prevProject}>
-                    <img src={leftarrow} alt="Previous" className='left-arrow-img'/>
-                </button>
+            <div className='mobile-setup'>
                 <div className="project-image">
-                    <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />  
-                    <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />  
+                    <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />
+                    <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />
                 </div>
-                <button className="next-button" onClick={nextProject}>
-                    <img src={rightarrow} alt="Next" className='right-arrow-img'/>
-                </button>
-            
+                <div className='buttons'>
+                    <button className="prev-button" onClick={prevProject}>
+                        <img src={leftarrow} alt="Previous" className="left-arrow-img" />
+                    </button>
+                    <button className="next-button" onClick={nextProject}>
+                        <img src={rightarrow} alt="Next" className="right-arrow-img" />
+                    </button>
+                </div>
+            </div>
+            <div className='tablet-setup'>
+                    <button className="prev-button" onClick={prevProject}>
+                        <img src={leftarrow} alt="Previous" className="left-arrow-img" />
+                    </button>
+                    <div className="project-image">
+                        <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />
+                        <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />
+                    </div>
+                    <button className="next-button" onClick={nextProject}>
+                        <img src={rightarrow} alt="Next" className="right-arrow-img" />
+                    </button>
             </div>
         </section>
-    )
+    );
 };
 
 export default ProjectPlating;
