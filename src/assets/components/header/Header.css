@@ -14,7 +14,7 @@
 }
 
 .nav-links {
-  display: flex;
+  display: none;
   flex: 1;
   justify-content: flex-end;
 }
@@ -42,6 +42,7 @@
 }
 
 .menu-icon {
+  display: block;
   font-size: 24px;
   cursor: pointer;
   color: black;
@@ -75,22 +76,21 @@
     font-size: 18px;
   }
 
-  .menu-icon {
-    display: block;
-  }
-
   .logotyp {
     width: 30%;
   }
 }
 
-@media screen and (max-width: 599px) {
-  .logotyp {
-    width: 40%;
+@media screen and (min-width: 1024px) {
+  .nav-links {
+    display: flex; /* Show nav links for desktop */
   }
 
-  .nav-links.open {
-    top: 60px;
-    right: 10px;
+  .menu-icon {
+    display: none; /* Hide menu icon for desktop */
+  }
+
+  .logotyp {
+    width: 25%;
   }
 }
