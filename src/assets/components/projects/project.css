@@ -33,6 +33,8 @@
   background: none;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 20px;
 }
 
 .project-image {
@@ -73,8 +75,10 @@
 
 .prev-button:hover,
 .next-button:hover {
-  background-color: green;
+  background-color: #547c4d;
   color: white;
+  transform: scale(1.1);
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -109,7 +113,7 @@
 
   .left-arrow-img,
   .right-arrow-img {
-    width: 55px;
+    width: 35px;
     height: auto;
     animation: pulse 2s infinite;
   }
@@ -147,7 +151,7 @@
 
   .left-arrow-img,
   .right-arrow-img {
-    width: 45px;
+    width: 35px;
     height: auto;
     animation: pulse 2s infinite;
     margin: 20px;
