@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 
-.fiveIcon {
+.Branschvinnare {
     width: 30%;
     height: auto;
 }
@@ -44,7 +44,7 @@ color: black;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-    .fiveIcon {
+    .Branschvinnare {
         width: 30%;
         height: auto;
     }
@@ -60,7 +60,7 @@ color: black;
 }
 
 @media screen and (min-width: 1024px) {
-    .fiveIcon {
+    .Branschvinnare {
         width: 28%;
         height: auto;
     }

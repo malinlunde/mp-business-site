@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './footer.css';
 import logotyp from '../images/LogoMP.png';
-import fiveIcon from '../images/5.png';
+import Branschvinnare from '../images/Branschvinnare.png';
 
 export const Footer = () => {
   
@@ -9,7 +9,7 @@ export const Footer = () => {
         <section className='footer'>
             <div className='footer-content'>
                 <img src={logotyp} alt='Logo' className='logotyp' />
-                <img src={fiveIcon} alt='Five' className='fiveIcon' />
+                <img src={Branschvinnare} alt='Branschvinnare' className='Branschvinnare' />
             </div>
             <div className='CreatedBy'>
                 (C) 2024 M&P Skapad av:  <a href="https://thetechadminsphere.com/"> thetechadminsphere</a>
