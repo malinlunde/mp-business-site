@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './project.css';
 import leftarrow from '../icons/arrowback.png';
 import rightarrow from '../icons/arrowforward.png';
@@ -27,6 +27,9 @@ import plattor21 from '../images/plattor/plattor21.jpeg';
 
 export const ProjectPlating = () => {
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+    const touchStartX = useRef(0);
+    const touchEndX = useRef(0);
+    
     const projects = [
         {
             id: 1,
@@ -82,13 +85,37 @@ export const ProjectPlating = () => {
         setCurrentProjectIndex((currentProjectIndex - 1 + projects.length) % projects.length);
     };
 
+    const handleTouchStart = (e) => {
+        touchStartX.current = e.touches[0].clientX;
+    };
+
+    const handleTouchMove = (e) => {
+        touchEndX.current = e.touches[0].clientX;
+    };
+
+    const handleTouchEnd = () => {
+        if (touchStartX.current - touchEndX.current > 50) {
+            // Swiped left - go to next
+            nextProject();
+        }
+        if (touchStartX.current - touchEndX.current < -50) {
+            // Swiped right - go to previous
+            prevProject();
+        }
+    };
+
     return (
         <section className="carousell">
             <div className="h3">
                 <h3>Plattläggning</h3>
             </div>
             <div className='mobile-setup'>
-                <div className="project-image">
+                <div 
+                    className="project-image"
+                    onTouchStart={handleTouchStart}
+                    onTouchMove={handleTouchMove}
+                    onTouchEnd={handleTouchEnd}
+                >
                     <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />
                     <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />
                 </div>
@@ -105,7 +132,12 @@ export const ProjectPlating = () => {
                     <button className="prev-button" onClick={prevProject}>
                         <img src={leftarrow} alt="Previous" className="left-arrow-img" />
                     </button>
-                    <div className="project-image">
+                    <div 
+                        className="project-image"
+                        onTouchStart={handleTouchStart}
+                        onTouchMove={handleTouchMove}
+                        onTouchEnd={handleTouchEnd}
+                    >
                         <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />
                         <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />
                     </div>
