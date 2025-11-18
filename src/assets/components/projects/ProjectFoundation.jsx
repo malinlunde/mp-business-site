@@ -89,14 +89,6 @@ export const ProjectFoundation = () => {
                     <img src={projects[currentProjectIndex].images[0]} alt={projects[currentProjectIndex].title} />
                     <img src={projects[currentProjectIndex].images[1]} alt={projects[currentProjectIndex].title} />
                 </div>
-                <div className='buttons'>
-                    <button className="prev-button" onClick={prevProject}>
-                        <img src={leftarrow} alt="Previous" className="left-arrow-img" />
-                    </button>
-                    <button className="next-button" onClick={nextProject}>
-                        <img src={rightarrow} alt="Next" className="right-arrow-img" />
-                    </button>
-                </div>
             </div>
             <div className='tablet-setup'>
                     <button className="prev-button" onClick={prevProject}>
