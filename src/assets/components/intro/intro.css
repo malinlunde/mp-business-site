@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 .intro-container {
-padding: 30px;  
-margin-bottom: 20px;
-background-color: white;
+  padding: 30px;  
+  margin-bottom: 0;
+  background-color: #283818;
 }
 
-
 .intro {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .text-box, 
@@ -22,27 +21,28 @@ background-color: white;
 }
 
 .h2-text {
-font-family: "Wix Madefor Display", sans-serif;
-font-size: 18px;
-color: black;
-text-align: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
 }
 
 .ptext {
-color: black;
-text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .intro-image {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .introimage {
     max-width: 100%;
     border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {

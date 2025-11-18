@@ -8,3 +8,7 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+.big-wrapper section {
+    margin: 0;
+}
